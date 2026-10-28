@@ -8,8 +8,9 @@
 
 **2026-10-27**
 
-- [今日更新记录：专题内容、客户端与 14 条免费节点](https://jiedianshouce.com/articles/daily-update-2026-10-27/)
-- [2026-10-27 免费节点实测历史帖](https://jiedianshouce.com/free-nodes/2026-10-27/)
+- [今日更新记录：订阅转换、泄露链路与14条免费节点](https://jiedianshouce.com/articles/daily-update-2026-10-28/)
+- [2026-10-28 免费节点实测历史帖](https://jiedianshouce.com/free-nodes/2026-10-28/)
+- [机场订阅转换安全吗？](https://jiedianshouce.com/articles/subscription-conversion-safety/)
 - [机场、免费节点、客户端与 IP 检测专题导航](https://jiedianshouce.com/topics/)
 - 新增或重做家宽住宅 IP、机场支付方式、按量付费、地区节点、客户端选择、AI/流媒体核验、优惠风险与晚高峰测试等专题。
 - 免费节点最终发布 14 条不同出口记录；GitHub 仅保留方法与历史入口，不存放节点配置、服务器地址或私人订阅。

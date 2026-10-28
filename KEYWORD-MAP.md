@@ -15,6 +15,7 @@
 | 地区节点 | 香港、日本、新加坡、美国节点怎么选 | [节点地区选择](https://jiedianshouce.com/articles/choose-node-region/) |
 | 线路测试 | CN2、BGP、中转、直连、晚高峰、低延迟 | [晚高峰测试](https://jiedianshouce.com/articles/peak-hour-airport-test/) |
 | 客户端导入 | Clash、Clash Verge、v2rayN 与订阅导入 | [客户端选择与导入](https://jiedianshouce.com/articles/clash-v2rayn-subscription-import/) |
+| 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |
 | AI 与流媒体 | ChatGPT、Claude、Gemini、Codex、Netflix 等逐平台核验 | [AI 与流媒体核验](https://jiedianshouce.com/articles/ai-streaming-airport-verification/) |
 | 优惠与试用 | 优惠码、折扣、免费试用与长期付款风险 | [优惠与风险历史](https://jiedianshouce.com/articles/airport-deals-risk-history/) |
