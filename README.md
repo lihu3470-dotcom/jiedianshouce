@@ -6,14 +6,14 @@
 
 ## 最新更新
 
-**2026-10-30**
+**2026-10-31**
 
-- [今日更新记录：v2rayN故障长尾、订阅导入深修与14条免费节点](https://jiedianshouce.com/articles/daily-update-2026-10-30/)
-- [2026-10-30 免费节点实测历史帖](https://jiedianshouce.com/free-nodes/2026-10-30/)
-- 新增 v2rayN `ArgumentOutOfRange_Count` 与节点列表为空的分阶段排查文章，并实质深修 Clash Verge Rev 与 v2rayN 订阅导入指南。
-- 免费节点跨历史去重后保留 2,483 条新候选，76 条通过真实代理预筛并完成固定后端第三方测速，最终发布 14 条 0% 丢包、双 IP 国家一致且出口互不重复的记录。
-- 修复追加节点后首页、免费节点入口、下载弹窗、每日更新记录、RSS、更新归档与站内搜索数量没有同步的问题。
-- 新增每日发布一致性验收规则：当前批次只能出现一次，日期、数量、链接和下载文件必须在全部公开入口一致。
+- [今日更新记录：FlClash 空配置排查与既有指南深修](https://jiedianshouce.com/articles/daily-update-2026-10-31/)
+- 新增 FlClash `configuration file config.yaml is empty` 与切换配置失败的分阶段排查文章，区分本地配置、当前配置指针、远程获取和版本差异。
+- 实质深修 [FlClash 使用与排错指南](https://jiedianshouce.com/tools/flclash/)，增加四阶段判断表、安全恢复顺序、限制和官方资料边界。
+- 新文章已同步问题排查、工具、文章库、更新归档、RSS、站点地图与站内搜索，并补足上下文内链。
+- 机场公开入口仅做只读核验，没有新证据的价格、流量、付款和退款资料保持稳定。
+- 本次没有达到可发布证据门槛的免费节点，因此没有更改 `/free-nodes/`、历史帖或下载文件，也没有用旧结果冒充当天数据。
 - GitHub 只同步公开方法、数量、变更和验收规则，不存放节点配置、服务器地址、私人订阅或未脱敏日志。
 
 完整变更见 [CHANGELOG.md](CHANGELOG.md)，页面与主题对应关系见 [KEYWORD-MAP.md](KEYWORD-MAP.md)。
