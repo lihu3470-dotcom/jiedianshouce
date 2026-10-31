@@ -9,6 +9,8 @@
 - 新增[FlClash config.yaml 为空与切换配置失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/)，按本地文件、当前配置指针、远程获取和版本差异组织判断表、操作步骤、限制与FAQ。
 - 实质深修[FlClash 使用与排错指南](https://jiedianshouce.com/tools/flclash/)，补充四阶段定位、安全恢复顺序和官方资料证据边界；没有机械改日期或拆分同义薄页。
 - 新页面已同步问题排查、工具、文章库、更新归档、RSS、站点地图与站内搜索，并从既有正文加入自然内链。
+- 强化工具目录与专题导航中的v2rayN、FlClash精确报错入口，并在节点罗盘、地区选择和机场推荐指南中增加ChatGPT机场及家宽/住宅IP的证据核验分流。
+- 本轮没有新增同义页面、修改标题主体或机械更新日期；四个重点页面的站内入口分别由4、4、4、5个增加到6、6、6、8个。
 
 ### 事实边界与发布保护
 
