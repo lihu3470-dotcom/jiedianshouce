@@ -18,6 +18,7 @@
 | Clash Verge Rev 故障 | 无法选择配置、Socket错误、内核启动和端口占用 | [Clash Verge Rev Socket错误排查](https://jiedianshouce.com/articles/clash-verge-rev-cannot-select-profile-socket-error/) |
 | 订阅更新失败 | HTTP错误、空内容、格式不兼容与缓存问题 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |
 | v2rayN精确报错 | ArgumentOutOfRange_Count、订阅成功但节点列表为空 | [v2rayN节点列表为空排查](https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/) |
+| v2rayN内核启动故障 | 运行Core失败、内核进程无法启动 | [v2rayN运行Core失败排查](https://jiedianshouce.com/articles/v2rayn-core-start-failed/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |
@@ -27,6 +28,10 @@
 
 ## 维护原则
 
+- 2026-11-01 复核：已有主页面能够访问，但“有页面”不代表已被 Google 收录。当天为套餐选择、地区节点、线路测试、优惠与试用、AI 与流媒体五个主页面补公开资料或当批证据及其边界；移动客户端页补官方资料和内链。实际结算与退款、四地区同条件对照、昼夜配对测试、AI 和流媒体账号功能测试仍缺证据，不把这些缺口写成结论。
+- 每日先核对本表、已有页面和可用的 Search Console 查询；优先深修有展示但证据薄弱的旧页，每次新增文章必须回答另一种具体问题。
+- 新文章与深修旧文都应给出可核对来源、核验日期、判断表或步骤、限制、FAQ 和自然内链；机场套餐、线路与免费节点的事实只用当批证据，不用机械换日期或关键词替代。
+- 检查标题、描述、正文、结构化数据、站内搜索、RSS、站点地图、移动端与下载入口的一致性；发布后再同步更新记录和仓库。
 - 同一搜索意图保留一个主页面，避免多个薄页面互相竞争。
 - 新增页面前先确认它解决的是不同问题，并且有足够的公开资料、实测数据或诊断步骤。
 - 页面标题、描述、H1、结构化数据、内部链接和移动端排版在发布后统一验收。
