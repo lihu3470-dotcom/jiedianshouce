@@ -16,6 +16,7 @@
 | 线路测试 | CN2、BGP、中转、直连、晚高峰、低延迟 | [晚高峰测试](https://jiedianshouce.com/articles/peak-hour-airport-test/) |
 | 客户端导入 | Clash、Clash Verge、v2rayN 与订阅导入 | [客户端选择与导入](https://jiedianshouce.com/articles/clash-v2rayn-subscription-import/) |
 | Clash Verge Rev 故障 | 无法选择配置、Socket错误、内核启动和端口占用 | [Clash Verge Rev Socket错误排查](https://jiedianshouce.com/articles/clash-verge-rev-cannot-select-profile-socket-error/) |
+| Clash Verge Rev 系统 DNS 报错 | set system dns failed、exit code 1、系统代理开启失败 | [系统 DNS 写入失败排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/) |
 | 订阅更新失败 | HTTP错误、空内容、格式不兼容与缓存问题 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |
 | v2rayN精确报错 | ArgumentOutOfRange_Count、订阅成功但节点列表为空 | [v2rayN节点列表为空排查](https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/) |
 | v2rayN内核启动故障 | 运行Core失败、内核进程无法启动 | [v2rayN运行Core失败排查](https://jiedianshouce.com/articles/v2rayn-core-start-failed/) |
@@ -28,6 +29,7 @@
 
 ## 维护原则
 
+- 2026-11-03 复核：新增的 `set system dns failed: exit code 1` 页面只承接配置验证后的系统 DNS 写入失败，通用 DNS、TUN 联网失败和服务安装失败继续由原页面承接；免费节点日期页只记录当批双探针事实，不替代固定入口。
 - 2026-11-01 复核：已有主页面能够访问，但“有页面”不代表已被 Google 收录。当天为套餐选择、地区节点、线路测试、优惠与试用、AI 与流媒体五个主页面补公开资料或当批证据及其边界；移动客户端页补官方资料和内链。实际结算与退款、四地区同条件对照、昼夜配对测试、AI 和流媒体账号功能测试仍缺证据，不把这些缺口写成结论。
 - 每日先核对本表、已有页面和可用的 Search Console 查询；优先深修有展示但证据薄弱的旧页，每次新增文章必须回答另一种具体问题。
 - 新文章与深修旧文都应给出可核对来源、核验日期、判断表或步骤、限制、FAQ 和自然内链；机场套餐、线路与免费节点的事实只用当批证据，不用机械换日期或关键词替代。
