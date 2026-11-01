@@ -15,6 +15,7 @@
 
 完整变更见 [CHANGELOG.md](CHANGELOG.md)，页面与主题对应关系见 [KEYWORD-MAP.md](KEYWORD-MAP.md)。
 每日发布前后的强制检查见 [每日发布一致性清单](docs/DAILY-PUBLISH-CHECKLIST.md)。
+已经发生过的问题及防复发规则见 [错误库](docs/ERROR-REGISTRY.md)。
 
 ## 我们在做什么
 
