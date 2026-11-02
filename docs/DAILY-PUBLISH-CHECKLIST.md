@@ -31,6 +31,7 @@
 - 对生产页面使用无缓存请求，不以本地预览代替线上检查。
 - 搜索旧日期、旧数量和旧“今天”文案；若在当前入口仍出现，发布判定失败。
 - 检查单一H1、self-canonical、结构化数据、移动端布局和关键状态码。
+- 运行 `python scripts/check_analytics_coverage.py`，要求 sitemap 中每个页面均返回 HTTP 200 且恰好加载一次 GoatCounter；未达到全覆盖时，不用前端访问数代表全站流量。
 - 保持 `/free-nodes/` 与 `/airports/` 的URL、标题主体、H1、canonical和主要搜索意图稳定。
 - 生产验收通过后再同步GitHub，并在CHANGELOG记录实质变更和修复。
 - 输出回归门禁报告，明确检查的页面数、站内链接数和问题数；不能只写“检查通过”。
