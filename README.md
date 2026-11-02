@@ -6,10 +6,10 @@
 
 ## 最新更新
 
-**2026-11-03**
+**2026-11-02**
 
-- [11月3日更新记录](https://jiedianshouce.com/articles/daily-update-2026-11-03/)：新增 [Clash Verge Rev `set system dns failed: exit code 1` 排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/)，并实质深修 [代理 DNS 解析失败排查](https://jiedianshouce.com/articles/proxy-dns-failure/)。
-- 发布 [11月3日免费节点双探针记录](https://jiedianshouce.com/free-nodes/2026-11-03/)：150 条跨历史新候选中 40 条完成两个独立公网出口测试，11 条满足完整标准，本期下载收录 10 条，另 1 条只作合格备选。短时测试不代表长期速度、稳定性或流媒体能力。
+- [11月2日更新记录](https://jiedianshouce.com/articles/daily-update-2026-11-02/)：新增 [Clash Verge Rev `set system dns failed: exit code 1` 排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/)，并实质深修 [代理 DNS 解析失败排查](https://jiedianshouce.com/articles/proxy-dns-failure/)。
+- 发布 [11月2日免费节点双探针记录](https://jiedianshouce.com/free-nodes/2026-11-02/)：150 条跨历史新候选中 40 条完成两个独立公网出口测试，11 条满足完整标准，本期下载收录 10 条，另 1 条只作合格备选。短时测试不代表长期速度、稳定性或流媒体能力。
 - 首页、问题排查、文章库、免费节点主页、历史归档、站内搜索、RSS 与站点地图已同步。机场公开入口核对 16 项，13 项 HTTP 200、3 项 HTTP 403；没有新的可核对套餐变化，价格与风险结论保持稳定。
 - 深修月付与长期套餐、节点地区选择、晚高峰测速及机场优惠核验四篇专题；免费节点固定页和早期历史帖补充状态定义与证据缺口说明。
 - GitHub 只同步公开方法、数量、变更和验收规则，不存放节点配置、服务器地址、私人订阅或未脱敏日志。
