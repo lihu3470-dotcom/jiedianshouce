@@ -6,12 +6,12 @@
 
 ## 最新更新
 
-**2026-11-02**
+**2026-11-03**
 
-- [11月2日更新记录](https://jiedianshouce.com/articles/daily-update-2026-11-02/)：新增 [Clash Verge Rev `set system dns failed: exit code 1` 排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/)，并实质深修 [代理 DNS 解析失败排查](https://jiedianshouce.com/articles/proxy-dns-failure/)。
-- 发布 [11月2日免费节点双探针记录](https://jiedianshouce.com/free-nodes/2026-11-02/)：150 条跨历史新候选中 40 条完成两个独立公网出口测试，11 条满足完整标准，本期下载收录 10 条，另 1 条只作合格备选。短时测试不代表长期速度、稳定性或流媒体能力。
-- 首页、问题排查、文章库、免费节点主页、历史归档、站内搜索、RSS 与站点地图已同步。机场公开入口核对 16 项，13 项 HTTP 200、3 项 HTTP 403；没有新的可核对套餐变化，价格与风险结论保持稳定。
-- 深修月付与长期套餐、节点地区选择、晚高峰测速及机场优惠核验四篇专题；免费节点固定页和早期历史帖补充状态定义与证据缺口说明。
+- [11月3日更新记录](https://jiedianshouce.com/articles/daily-update-2026-11-03/)：新增 [Hiddify WARP `netip.ParsePrefix("/24")` 排查](https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/)，并深修 [Hiddify 教程](https://jiedianshouce.com/tools/hiddify/)的 WARP 与普通订阅分流。
+- 发布 [11月3日免费节点双端测试记录](https://jiedianshouce.com/free-nodes/2026-11-03/)：13 个公开来源文件、390 条跨历史新候选、28 条完成两端测试，10 条满足标准并进入下载。两端上线前复测仍通过；短时观察不保证长期速度或隐私安全。
+- 复核 [10月16日历史配置帖](https://jiedianshouce.com/free-nodes/2026-10-16/)的 8 份单条文件与合并文件，明确现存归档的测速与地区证据缺口；首页、专题、文章库、搜索、RSS 和 sitemap 同步更新。
+- 机场 16 个公开入口中 13 个返回 HTTP 200、3 个返回 HTTP 403；无新的可核对套餐变化，不机械修改价格与排名。仓库只同步公开方法、数量和验收结果，不保存可连接配置或未脱敏日志。
 - GitHub 只同步公开方法、数量、变更和验收规则，不存放节点配置、服务器地址、私人订阅或未脱敏日志。
 
 完整变更见 [CHANGELOG.md](CHANGELOG.md)，页面与主题对应关系见 [KEYWORD-MAP.md](KEYWORD-MAP.md)。
@@ -24,7 +24,7 @@
 
 - Clash Verge、v2rayN、v2rayNG、Shadowrocket、Surge、sing-box 等客户端的安装、导入与排错；
 - 机场公开套餐、付款方式、线路描述、入口状态与风险提示；
-- 免费节点候选的跨来源去重、连通筛选、第三方测速与历史归档；
+- 免费节点候选的跨来源去重、双端连通测试、可选第三方佐证与历史归档；
 - 出口 IP、ASN、地理位置、住宅/机房标签和 DNS 泄漏的核验方法；
 - 订阅失败、TUN 断网、晚高峰变慢、连接成功但打不开网页等常见问题。
 
@@ -32,7 +32,7 @@
 
 1. **事实与宣传分开**：公开线路标签不等于本站实测，也不自动证明速度、稳定性或解锁能力。
 2. **保留时间和来源**：价格、流量、入口、测试与风险记录注明核对时间和证据边界。
-3. **失败结果同样保留**：未连通、丢包过高、地区冲突或测试未完成的节点不会包装成可用节点。
+3. **失败结果同样保留**：未连通、请求失败率过高、地区冲突或测试未完成的节点不会包装成可用节点。
 4. **保护敏感信息**：不公开私人订阅、令牌、账号、密码、支付信息或未脱敏日志。
 5. **拒绝批量薄内容**：同一搜索意图使用一个主页面，更新必须增加真实数据、诊断步骤或原创分析。
 

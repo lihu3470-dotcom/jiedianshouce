@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jiedianshouce.com/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/free-nodes-import-v2rayn/</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/tools/hiddify/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/tools/flclash/</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/troubleshooting/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/choosing/</loc>
@@ -78,7 +78,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/library/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/traffic-reset-date/</loc>
@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/proxy-dns-failure/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/airports/data-methodology/</loc>
@@ -110,11 +110,11 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/monthly-or-usage/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/choose-node-region/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/protect-subscription/</loc>
@@ -238,7 +238,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/tools/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/shadowrocket-subscription-import-failed/</loc>
@@ -270,7 +270,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/airport-website-cannot-open/</loc>
@@ -294,15 +294,15 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/archive/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/2026-10-14/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/2026-10-16/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-03</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/2026-10-18/</loc>
@@ -362,11 +362,11 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/airport-deals-risk-history/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/peak-hour-airport-test/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/</loc>
@@ -428,4 +428,60 @@
     <loc>https://jiedianshouce.com/free-nodes/2026-10-29/</loc>
     <lastmod>2026-10-29</lastmod>
   </url>
-<url><loc>https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/</loc><lastmod>2026-10-30</lastmod></url><url><loc>https://jiedianshouce.com/free-nodes/2026-10-30/</loc><lastmod>2026-10-30</lastmod></url><url><loc>https://jiedianshouce.com/articles/daily-update-2026-10-30/</loc><lastmod>2026-10-30</lastmod></url><url><loc>https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/</loc><lastmod>2026-10-31</lastmod></url><url><loc>https://jiedianshouce.com/articles/daily-update-2026-10-31/</loc><lastmod>2026-10-31</lastmod></url><url><loc>https://jiedianshouce.com/free-nodes/2026-11-01/</loc><lastmod>2026-11-01</lastmod></url><url><loc>https://jiedianshouce.com/articles/v2rayn-core-start-failed/</loc><lastmod>2026-11-01</lastmod></url><url><loc>https://jiedianshouce.com/articles/daily-update-2026-11-01/</loc><lastmod>2026-11-01</lastmod></url></urlset>
+  <url>
+    <loc>https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/free-nodes/2026-10-30/</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/daily-update-2026-10-30/</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/</loc>
+    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/daily-update-2026-10-31/</loc>
+    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/free-nodes/2026-11-01/</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/v2rayn-core-start-failed/</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/daily-update-2026-11-01/</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/daily-update-2026-11-02/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/free-nodes/2026-11-02/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/</loc>
+    <lastmod>2026-11-03</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/daily-update-2026-11-03/</loc>
+    <lastmod>2026-11-03</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/free-nodes/2026-11-03/</loc>
+    <lastmod>2026-11-03</lastmod>
+  </url>
+</urlset>
