@@ -21,6 +21,7 @@
 | Hiddify WARP 精确报错 | 添加或连接 WARP 时 `netip.ParsePrefix("/24")`、空 IP 地址前缀解析失败 | [Hiddify WARP 地址前缀排查](https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/) |
 | Hiddify 订阅后无节点 | 订阅获取、解析、保存与配置选择，不承接 WARP 前缀错误 | [Hiddify 订阅无节点排查](https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/) |
 | Hiddify 常规使用 | 安装、导入、连接及 WARP 与普通订阅分流 | [Hiddify 完整教程](https://jiedianshouce.com/tools/hiddify/) |
+| sing-box 远程规则集冷启动故障 | 核心 `route.rule_set` 远程文件在无缓存启动时下载或解析失败；区别于客户端订阅更新 | [sing-box 远程规则集启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/) |
 | v2rayN精确报错 | ArgumentOutOfRange_Count、订阅成功但节点列表为空 | [v2rayN节点列表为空排查](https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/) |
 | v2rayN内核启动故障 | 运行Core失败、内核进程无法启动 | [v2rayN运行Core失败排查](https://jiedianshouce.com/articles/v2rayn-core-start-failed/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
@@ -32,6 +33,7 @@
 
 ## 维护原则
 
+- 2026-11-04 复核：sing-box 远程规则集冷启动故障由独立页面承接，移动与高级客户端旧页补配置对象分流；11月4日免费节点日期页记录14份公开来源文件、409条跨历史去重候选、67条完成双端测试、29条通过最终配置复测并上线，不替代固定 `/free-nodes/` 入口。没有完整 Search Console 查询和索引报告，不声称新词已收录。
 - 2026-11-03 复核：WARP 前缀解析错误由独立精确页面承接，订阅无节点与完整教程保留各自主意图；11月3日免费节点日期帖只记当批 13/390/28/10 的来源、测试和下载，不替代固定入口。页面上线不等于已被 Google 收录，仍需 Search Console 数据核对。
 - 2026-11-02 复核：新增的 `set system dns failed: exit code 1` 页面只承接配置验证后的系统 DNS 写入失败，通用 DNS、TUN 联网失败和服务安装失败继续由原页面承接；免费节点日期页只记录当批双探针事实，不替代固定入口。
 - 2026-11-02 质量维护：月付与长期套餐、节点地区、晚高峰测速和优惠核验继续使用原有主页面，通过公开数据与FAQ加深，不拆分“好用机场、机场选择”等同义页面；免费节点固定页只说明当前方法和入口，日期页保留独立批次证据。

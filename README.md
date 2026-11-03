@@ -6,11 +6,11 @@
 
 ## 最新更新
 
-**2026-11-03**
+**2026-11-04**
 
-- [11月3日更新记录](https://jiedianshouce.com/articles/daily-update-2026-11-03/)：新增 [Hiddify WARP `netip.ParsePrefix("/24")` 排查](https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/)，并深修 [Hiddify 教程](https://jiedianshouce.com/tools/hiddify/)的 WARP 与普通订阅分流。
-- 发布 [11月3日免费节点双端测试记录](https://jiedianshouce.com/free-nodes/2026-11-03/)：13 个公开来源文件、390 条跨历史新候选、28 条完成两端测试，10 条满足标准并进入下载。两端上线前复测仍通过；短时观察不保证长期速度或隐私安全。
-- 复核 [10月16日历史配置帖](https://jiedianshouce.com/free-nodes/2026-10-16/)的 8 份单条文件与合并文件，明确现存归档的测速与地区证据缺口；首页、专题、文章库、搜索、RSS 和 sitemap 同步更新。
+- [11月4日更新记录](https://jiedianshouce.com/articles/daily-update-2026-11-04/)：新增 [sing-box 远程规则集冷启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/)，深修移动与高级客户端比较页的配置对象分流。
+- 发布 [11月4日免费节点双端测试记录](https://jiedianshouce.com/free-nodes/2026-11-04/)：14份公开来源文件、409条去重候选、67条完成两端测试，29条通过最终配置复测并进入下载。短时观察不保证长期速度或隐私安全。
+- 复核 [10月18日历史配置帖](https://jiedianshouce.com/free-nodes/2026-10-18/)的16份单条文件与合并文件，明确旧截图归属证据缺口；首页、专题、文章库、搜索、RSS和sitemap同步更新。
 - 机场 16 个公开入口中 13 个返回 HTTP 200、3 个返回 HTTP 403；无新的可核对套餐变化，不机械修改价格与排名。仓库只同步公开方法、数量和验收结果，不保存可连接配置或未脱敏日志。
 - GitHub 只同步公开方法、数量、变更和验收规则，不存放节点配置、服务器地址、私人订阅或未脱敏日志。
 
