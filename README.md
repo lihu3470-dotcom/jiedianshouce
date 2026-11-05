@@ -6,12 +6,11 @@
 
 ## 最新更新
 
-**2026-11-04**
+**2026-11-06**
 
-- [11月4日更新记录](https://jiedianshouce.com/articles/daily-update-2026-11-04/)：新增 [sing-box 远程规则集冷启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/)，深修移动与高级客户端比较页的配置对象分流。
-- 发布 [11月4日免费节点双端测试记录](https://jiedianshouce.com/free-nodes/2026-11-04/)：14份公开来源文件、409条去重候选、67条完成两端测试，29条通过最终配置复测并进入下载。短时观察不保证长期速度或隐私安全。
-- 复核 [10月18日历史配置帖](https://jiedianshouce.com/free-nodes/2026-10-18/)的16份单条文件与合并文件，明确旧截图归属证据缺口；首页、专题、文章库、搜索、RSS和sitemap同步更新。
-- 机场 16 个公开入口中 13 个返回 HTTP 200、3 个返回 HTTP 403；无新的可核对套餐变化，不机械修改价格与排名。仓库只同步公开方法、数量和验收结果，不保存可连接配置或未脱敏日志。
+- [机场资料参考榜](https://jiedianshouce.com/airports/)明确区分旧排序与现行套餐核验，三家资料不足的品牌暂停普通排序；[节点罗盘](https://jiedianshouce.com/airport-selector/)只按历史数值筛选，不以旧评分或线路标签推断当前适用性。
+- 全球云、飞猫云、光速云详情页撤下无法公开复核的性能数字及现行评分承诺；[TUN故障页](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/)增加同条件三状态诊断。
+- 11月5日免费节点仍为已发布的[9国13条历史测试记录](https://jiedianshouce.com/free-nodes/2026-11-05/)；本次SEO修订没有重新测试或替换下载。
 - GitHub 只同步公开方法、数量、变更和验收规则，不存放节点配置、服务器地址、私人订阅或未脱敏日志。
 
 完整变更见 [CHANGELOG.md](CHANGELOG.md)，页面与主题对应关系见 [KEYWORD-MAP.md](KEYWORD-MAP.md)。

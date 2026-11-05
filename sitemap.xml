@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jiedianshouce.com/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/free-nodes-import-v2rayn/</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/troubleshooting/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/choosing/</loc>
@@ -78,7 +78,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/library/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/traffic-reset-date/</loc>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-06</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/proxy-dns-failure/</loc>
@@ -166,15 +166,15 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/airports/guangsuyun/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-11-06</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/airports/globalcloud/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-11-06</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/airports/flycat/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-11-06</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/airports/xingdaomeng/</loc>
@@ -226,7 +226,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/airport-selector/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-06</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/airports/maple-relay/</loc>
@@ -234,7 +234,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/airports/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-06</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/tools/</loc>
@@ -262,7 +262,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/clash-verge-rev-system-proxy-no-internet/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/v2rayn-connected-but-no-internet/</loc>
@@ -294,7 +294,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/archive/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/2026-10-14/</loc>
@@ -314,7 +314,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/2026-10-20/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/free-nodes/2026-10-21/</loc>
@@ -378,7 +378,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/topics/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/chatgpt-airport-verification/</loc>
@@ -454,7 +454,7 @@
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/v2rayn-core-start-failed/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://jiedianshouce.com/articles/daily-update-2026-11-01/</loc>
@@ -489,11 +489,23 @@
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
+    <loc>https://jiedianshouce.com/free-nodes/2026-11-04/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  <url>
     <loc>https://jiedianshouce.com/articles/daily-update-2026-11-04/</loc>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
-    <loc>https://jiedianshouce.com/free-nodes/2026-11-04/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <loc>https://jiedianshouce.com/articles/daily-update-2026-11-05/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/articles/v2rayn-geosite-dat-missing/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://jiedianshouce.com/free-nodes/2026-11-05/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
 </urlset>

@@ -9,6 +9,7 @@
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
 | 免费节点历史 | 日期、数量、地区、丢包和测速证据 | [历史归档](https://jiedianshouce.com/free-nodes/archive/) |
 | 机场推荐 | 价格、流量、倍率、周期与公开证据 | [机场评级](https://jiedianshouce.com/airports/) |
+| 机场历史条件筛选 | 按旧价格与流量缩小资料候选，现行套餐另行核对 | [节点罗盘](https://jiedianshouce.com/airport-selector/) |
 | 家宽机场 | 住宅 IP、机房 IP、ASN 与标签核验 | [家宽住宅 IP 专题](https://jiedianshouce.com/articles/residential-ip-airports/) |
 | 机场支付 | 支付宝、微信、USDT、PayPal 与退款风险 | [支付方式专题](https://jiedianshouce.com/articles/airport-payment-methods/) |
 | 套餐选择 | 月付、按量付费、低倍率与总成本 | [按量付费专题](https://jiedianshouce.com/articles/monthly-or-usage/) |
@@ -17,6 +18,7 @@
 | 客户端导入 | Clash、Clash Verge、v2rayN 与订阅导入 | [客户端选择与导入](https://jiedianshouce.com/articles/clash-v2rayn-subscription-import/) |
 | Clash Verge Rev 故障 | 无法选择配置、Socket错误、内核启动和端口占用 | [Clash Verge Rev Socket错误排查](https://jiedianshouce.com/articles/clash-verge-rev-cannot-select-profile-socket-error/) |
 | Clash Verge Rev 系统 DNS 报错 | set system dns failed、exit code 1、系统代理开启失败 | [系统 DNS 写入失败排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/) |
+| Clash Verge Rev TUN接管后断网 | 同节点系统代理可用、仅TUN接管失败时排查服务、接口、路由与DNS | [TUN无法上网排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
 | 订阅更新失败 | HTTP错误、空内容、格式不兼容与缓存问题 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |
 | Hiddify WARP 精确报错 | 添加或连接 WARP 时 `netip.ParsePrefix("/24")`、空 IP 地址前缀解析失败 | [Hiddify WARP 地址前缀排查](https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/) |
 | Hiddify 订阅后无节点 | 订阅获取、解析、保存与配置选择，不承接 WARP 前缀错误 | [Hiddify 订阅无节点排查](https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/) |
@@ -35,6 +37,7 @@
 
 ## 维护原则
 
+- 2026-11-06 复核：机场榜单现为历史资料参考排序，三家证据不足的品牌暂停参与普通排序；节点罗盘只按旧价格、流量及明示偏好筛选，不证明当前套餐或AI适用。TUN页与系统代理、服务安装故障页各承接不同阶段。无最新Search Console查询与索引数据，不声称本次修订已带来收录。
 - 2026-11-05 复核：v2rayN Geo 文件精确故障与一般 Core 启动失败分工；11月5日日期页只记录本批360条去重候选、37条完成双端测试及发布前复测合格的13条，不替代固定免费节点入口。Search Console 当日查询与索引报表未取得，不声称新页面已收录。
 - 2026-11-04 复核：sing-box 远程规则集冷启动故障由独立页面承接，移动与高级客户端旧页补配置对象分流；11月4日免费节点日期页记录14份公开来源文件、409条跨历史去重候选、67条完成双端测试、29条通过最终配置复测并上线，不替代固定 `/free-nodes/` 入口。没有完整 Search Console 查询和索引报告，不声称新词已收录。
 - 2026-11-03 复核：WARP 前缀解析错误由独立精确页面承接，订阅无节点与完整教程保留各自主意图；11月3日免费节点日期帖只记当批 13/390/28/10 的来源、测试和下载，不替代固定入口。页面上线不等于已被 Google 收录，仍需 Search Console 数据核对。
