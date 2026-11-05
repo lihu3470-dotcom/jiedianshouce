@@ -22,12 +22,14 @@
 | 订阅更新失败 | HTTP错误、空内容、格式不兼容与缓存问题 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |
 | Hiddify WARP 精确报错 | 添加或连接 WARP 时 `netip.ParsePrefix("/24")`、空 IP 地址前缀解析失败 | [Hiddify WARP 地址前缀排查](https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/) |
 | Hiddify 订阅后无节点 | 订阅获取、解析、保存与配置选择，不承接 WARP 前缀错误 | [Hiddify 订阅无节点排查](https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/) |
+| Hiddify Linux TUN 启动精确故障 | 授权后 `Bad state: exit status 127`、帮助进程或共享库加载阶段；区别于订阅为空和一般安装 | [Hiddify Linux 127 错误排查](https://jiedianshouce.com/articles/hiddify-linux-tun-exit-status-127/) |
 | Hiddify 常规使用 | 安装、导入、连接及 WARP 与普通订阅分流 | [Hiddify 完整教程](https://jiedianshouce.com/tools/hiddify/) |
 | sing-box 远程规则集冷启动故障 | 核心 `route.rule_set` 远程文件在无缓存启动时下载或解析失败；区别于客户端订阅更新 | [sing-box 远程规则集启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/) |
 | v2rayN精确报错 | ArgumentOutOfRange_Count、订阅成功但节点列表为空 | [v2rayN节点列表为空排查](https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/) |
 | v2rayN内核启动故障 | 运行Core失败、内核进程无法启动 | [v2rayN运行Core失败排查](https://jiedianshouce.com/articles/v2rayn-core-start-failed/) |
 | v2rayN Geo 文件精确故障 | Xray 启动日志明确显示 geosite.dat 缺失或 EOF；一般 Core 启动失败仍由上页承接 | [v2rayN geosite.dat 排查](https://jiedianshouce.com/articles/v2rayn-geosite-dat-missing/) |
 | 2026-11-05 免费节点批次 | 当批公开来源、独立双端测试、下载与证据 | [11月5日测试记录](https://jiedianshouce.com/free-nodes/2026-11-05/) |
+| 2026-11-06 免费节点批次 | 四轮公开候选、独立双端测试、最终复测、中文地区名与下载证据 | [11月6日测试记录](https://jiedianshouce.com/free-nodes/2026-11-06/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |
@@ -37,6 +39,7 @@
 
 ## 维护原则
 
+- 2026-11-06 日更：Hiddify Linux `exit status 127` 由新专项页承接，安装与订阅为空继续由旧页承接；Clash订阅无节点旧页深修提供者获取阶段。11月6日日期页记录580条抽样配置、57条完成双端测试、44条最终双端复测通过并上线，覆盖13个国家和地区；固定免费节点页保留主入口。Search Console最新查询和索引数据仍缺，不声称新词已收录。
 - 2026-11-06 复核：机场榜单现为历史资料参考排序，三家证据不足的品牌暂停参与普通排序；节点罗盘只按旧价格、流量及明示偏好筛选，不证明当前套餐或AI适用。TUN页与系统代理、服务安装故障页各承接不同阶段。无最新Search Console查询与索引数据，不声称本次修订已带来收录。
 - 2026-11-05 复核：v2rayN Geo 文件精确故障与一般 Core 启动失败分工；11月5日日期页只记录本批360条去重候选、37条完成双端测试及发布前复测合格的13条，不替代固定免费节点入口。Search Console 当日查询与索引报表未取得，不声称新页面已收录。
 - 2026-11-04 复核：sing-box 远程规则集冷启动故障由独立页面承接，移动与高级客户端旧页补配置对象分流；11月4日免费节点日期页记录14份公开来源文件、409条跨历史去重候选、67条完成双端测试、29条通过最终配置复测并上线，不替代固定 `/free-nodes/` 入口。没有完整 Search Console 查询和索引报告，不声称新词已收录。
