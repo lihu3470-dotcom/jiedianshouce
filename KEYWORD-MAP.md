@@ -24,6 +24,8 @@
 | sing-box 远程规则集冷启动故障 | 核心 `route.rule_set` 远程文件在无缓存启动时下载或解析失败；区别于客户端订阅更新 | [sing-box 远程规则集启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/) |
 | v2rayN精确报错 | ArgumentOutOfRange_Count、订阅成功但节点列表为空 | [v2rayN节点列表为空排查](https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/) |
 | v2rayN内核启动故障 | 运行Core失败、内核进程无法启动 | [v2rayN运行Core失败排查](https://jiedianshouce.com/articles/v2rayn-core-start-failed/) |
+| v2rayN Geo 文件精确故障 | Xray 启动日志明确显示 geosite.dat 缺失或 EOF；一般 Core 启动失败仍由上页承接 | [v2rayN geosite.dat 排查](https://jiedianshouce.com/articles/v2rayn-geosite-dat-missing/) |
+| 2026-11-05 免费节点批次 | 当批公开来源、独立双端测试、下载与证据 | [11月5日测试记录](https://jiedianshouce.com/free-nodes/2026-11-05/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |
@@ -33,6 +35,7 @@
 
 ## 维护原则
 
+- 2026-11-05 复核：v2rayN Geo 文件精确故障与一般 Core 启动失败分工；11月5日日期页只记录本批360条去重候选、37条完成双端测试及发布前复测合格的13条，不替代固定免费节点入口。Search Console 当日查询与索引报表未取得，不声称新页面已收录。
 - 2026-11-04 复核：sing-box 远程规则集冷启动故障由独立页面承接，移动与高级客户端旧页补配置对象分流；11月4日免费节点日期页记录14份公开来源文件、409条跨历史去重候选、67条完成双端测试、29条通过最终配置复测并上线，不替代固定 `/free-nodes/` 入口。没有完整 Search Console 查询和索引报告，不声称新词已收录。
 - 2026-11-03 复核：WARP 前缀解析错误由独立精确页面承接，订阅无节点与完整教程保留各自主意图；11月3日免费节点日期帖只记当批 13/390/28/10 的来源、测试和下载，不替代固定入口。页面上线不等于已被 Google 收录，仍需 Search Console 数据核对。
 - 2026-11-02 复核：新增的 `set system dns failed: exit code 1` 页面只承接配置验证后的系统 DNS 写入失败，通用 DNS、TUN 联网失败和服务安装失败继续由原页面承接；免费节点日期页只记录当批双探针事实，不替代固定入口。
