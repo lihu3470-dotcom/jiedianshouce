@@ -30,10 +30,12 @@
 | sing-box 远程规则集冷启动故障 | 核心 `route.rule_set` 远程文件在无缓存启动时下载或解析失败；区别于客户端订阅更新 | [sing-box 远程规则集启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/) |
 | v2rayN精确报错 | ArgumentOutOfRange_Count、订阅成功但节点列表为空 | [v2rayN节点列表为空排查](https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/) |
 | v2rayN内核启动故障 | 运行Core失败、内核进程无法启动 | [v2rayN运行Core失败排查](https://jiedianshouce.com/articles/v2rayn-core-start-failed/) |
+| v2rayN macOS TUN跨核心切换端口占用 | 开启TUN期间从sing-box切到Xray后出现 `address already in use`，先核对实际监听端口和进程；一般Core启动故障仍由上页承接 | [v2rayN macOS端口占用排查](https://jiedianshouce.com/articles/v2rayn-macos-tun-core-switch-port-in-use/) |
 | v2rayN Geo 文件精确故障 | Xray 启动日志明确显示 geosite.dat 缺失或 EOF；一般 Core 启动失败仍由上页承接 | [v2rayN geosite.dat 排查](https://jiedianshouce.com/articles/v2rayn-geosite-dat-missing/) |
 | 2026-11-05 免费节点批次 | 当批公开来源、独立双端测试、下载与证据 | [11月5日测试记录](https://jiedianshouce.com/free-nodes/2026-11-05/) |
 | 2026-11-06 免费节点批次 | 四轮公开候选、独立双端测试、最终复测、中文地区名与下载证据 | [11月6日测试记录](https://jiedianshouce.com/free-nodes/2026-11-06/) |
 | 2026-11-07 免费节点批次 | 当批480条新候选、38条双端测试、13条初选与剔除失效节点后的12条最终下载 | [11月7日测试记录](https://jiedianshouce.com/free-nodes/2026-11-07/) |
+| 2026-11-08 免费节点批次 | 8份公开来源、1338条去重候选、66条双端测试、27条最终下载及原编号20的剔除证据 | [11月8日测试记录](https://jiedianshouce.com/free-nodes/2026-11-08/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |
@@ -43,6 +45,7 @@
 
 ## 维护原则
 
+- 2026-11-08复核：新v2rayN专项只承接macOS TUN跨核心切换后的端口占用，通用Core页保留其他启动失败；系统代理断网页补官方个案与阶段判断。固定免费节点入口展示8号27条，日期页承载当批证据。最近可用GSC仍为10月29日至11月4日268展示、7点击，索引截图67已收录仅是10月23日历史数；11月14日前后按查询、页面和索引状态复盘。
 - 2026-11-07夜间聚焦修订：`/airports/`继续承接机场推荐及品牌资料查找，旧版评级顺序只作历史索引；`/articles/airport-recommendation-guide/`承接购买判断方法；`/start/`承接新手首次连接路径。原有免费节点、地区、套餐、线路与客户端故障主页面均保留。GSC最近完整7日为10月29日至11月4日的268展示、7点击；索引报告最后更新10月23日，不能用67已收录代表当前值。11月14日前后按页面及查询复查本次改进。
 
 - 2026-11-07 复核：Clash Verge Rev 远程配置 `invalid yaml` 由新专项页承接，订阅更新失败总排查保留跨客户端阶段入口；更新成功但无节点和TUN断网继续由现有页面承接。7号节点日期页只记录本批双端证据，不替代固定 `/free-nodes/`。最新Search Console查询和索引报告缺失，不能把线上可访问当作已收录；下次取得报告后记录展示、点击、CTR、平均排名及网页索引状态。

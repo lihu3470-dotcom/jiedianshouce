@@ -6,11 +6,11 @@
 
 ## 最新更新
 
-**2026-11-07**
+**2026-11-08**
 
-- [机场资料参考榜](https://jiedianshouce.com/airports/)补购买判断表和公开入口状态，旧评分只作历史资料；[机场选购指南](https://jiedianshouce.com/articles/airport-recommendation-guide/)补实际流量成本演算与购买前核对，[新手入口](https://jiedianshouce.com/start/)补来源选择路径。
-- 7号[免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-07/)发布12条双端复测通过的短时结果；本次SEO修订没有重新测试或替换下载。
-- Search Console已读取10月29日至11月4日的268展示、7点击；索引报告最后更新10月23日，不能据此判断本次修订是否被收录。
+- 新增[v2rayN macOS TUN跨核心切换端口占用排查](https://jiedianshouce.com/articles/v2rayn-macos-tun-core-switch-port-in-use/)，深修Clash Verge Rev系统代理断网页，并修订10月24日历史节点资料边界。
+- [8号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-08/)发布27条、覆盖15个国家和地区。结果只代表北京时间8号02:41至02:52的双端复测窗口；按用户要求，上线前没有再次测试。
+- 54个发布文件均在线返回200且哈希一致，36组手机和桌面检查及站内搜索通过。较新的Search Console报告尚未取得，不声称本批已获收录或流量增长。
 - GitHub 只同步公开方法、数量、变更和验收规则，不存放节点配置、服务器地址、私人订阅或未脱敏日志。
 
 完整变更见 [CHANGELOG.md](CHANGELOG.md)，页面与主题对应关系见 [KEYWORD-MAP.md](KEYWORD-MAP.md)。
