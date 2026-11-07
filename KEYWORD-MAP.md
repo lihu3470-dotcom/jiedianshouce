@@ -20,6 +20,7 @@
 | Clash Verge Rev 系统 DNS 报错 | set system dns failed、exit code 1、系统代理开启失败 | [系统 DNS 写入失败排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/) |
 | Clash Verge Rev TUN接管后断网 | 同节点系统代理可用、仅TUN接管失败时排查服务、接口、路由与DNS | [TUN无法上网排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
 | 订阅更新失败 | HTTP错误、空内容、格式不兼容与缓存问题 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |
+| Clash Verge Rev 远程配置 YAML 精确报错 | 更新远程配置时 `the remote profile data is invalid yaml`，区分 HTTP、解析和缺字段阶段 | [Clash Verge Rev invalid yaml 排查](https://jiedianshouce.com/articles/clash-verge-rev-remote-profile-invalid-yaml/) |
 | Hiddify WARP 精确报错 | 添加或连接 WARP 时 `netip.ParsePrefix("/24")`、空 IP 地址前缀解析失败 | [Hiddify WARP 地址前缀排查](https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/) |
 | Hiddify 订阅后无节点 | 订阅获取、解析、保存与配置选择，不承接 WARP 前缀错误 | [Hiddify 订阅无节点排查](https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/) |
 | Hiddify Linux TUN 启动精确故障 | 授权后 `Bad state: exit status 127`、帮助进程或共享库加载阶段；区别于订阅为空和一般安装 | [Hiddify Linux 127 错误排查](https://jiedianshouce.com/articles/hiddify-linux-tun-exit-status-127/) |
@@ -30,6 +31,7 @@
 | v2rayN Geo 文件精确故障 | Xray 启动日志明确显示 geosite.dat 缺失或 EOF；一般 Core 启动失败仍由上页承接 | [v2rayN geosite.dat 排查](https://jiedianshouce.com/articles/v2rayn-geosite-dat-missing/) |
 | 2026-11-05 免费节点批次 | 当批公开来源、独立双端测试、下载与证据 | [11月5日测试记录](https://jiedianshouce.com/free-nodes/2026-11-05/) |
 | 2026-11-06 免费节点批次 | 四轮公开候选、独立双端测试、最终复测、中文地区名与下载证据 | [11月6日测试记录](https://jiedianshouce.com/free-nodes/2026-11-06/) |
+| 2026-11-07 免费节点批次 | 当批480条新候选、38条双端测试、13条初选与剔除失效节点后的12条最终下载 | [11月7日测试记录](https://jiedianshouce.com/free-nodes/2026-11-07/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |
@@ -39,6 +41,7 @@
 
 ## 维护原则
 
+- 2026-11-07 复核：Clash Verge Rev 远程配置 `invalid yaml` 由新专项页承接，订阅更新失败总排查保留跨客户端阶段入口；更新成功但无节点和TUN断网继续由现有页面承接。7号节点日期页只记录本批双端证据，不替代固定 `/free-nodes/`。最新Search Console查询和索引报告缺失，不能把线上可访问当作已收录；下次取得报告后记录展示、点击、CTR、平均排名及网页索引状态。
 - 2026-11-06 日更：Hiddify Linux `exit status 127` 由新专项页承接，安装与订阅为空继续由旧页承接；Clash订阅无节点旧页深修提供者获取阶段。11月6日日期页记录580条抽样配置、57条完成双端测试、44条最终双端复测通过并上线，覆盖13个国家和地区；固定免费节点页保留主入口。Search Console最新查询和索引数据仍缺，不声称新词已收录。
 - 2026-11-06 复核：机场榜单现为历史资料参考排序，三家证据不足的品牌暂停参与普通排序；节点罗盘只按旧价格、流量及明示偏好筛选，不证明当前套餐或AI适用。TUN页与系统代理、服务安装故障页各承接不同阶段。无最新Search Console查询与索引数据，不声称本次修订已带来收录。
 - 2026-11-05 复核：v2rayN Geo 文件精确故障与一般 Core 启动失败分工；11月5日日期页只记录本批360条去重候选、37条完成双端测试及发布前复测合格的13条，不替代固定免费节点入口。Search Console 当日查询与索引报表未取得，不声称新页面已收录。
