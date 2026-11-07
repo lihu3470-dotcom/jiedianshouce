@@ -9,6 +9,8 @@
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
 | 免费节点历史 | 日期、数量、地区、丢包和测速证据 | [历史归档](https://jiedianshouce.com/free-nodes/archive/) |
 | 机场推荐 | 价格、流量、倍率、周期与公开证据 | [机场评级](https://jiedianshouce.com/airports/) |
+| 机场选购方法 | 把最低付款额、倍率后流量、有效期和退款规则放到同一口径比较 | [机场推荐选购指南](https://jiedianshouce.com/articles/airport-recommendation-guide/) |
+| 新手连接入口 | 从选择付费服务或临时免费节点，到客户端、订阅导入与首次验证 | [第一次连接](https://jiedianshouce.com/start/) |
 | 机场历史条件筛选 | 按旧价格与流量缩小资料候选，现行套餐另行核对 | [节点罗盘](https://jiedianshouce.com/airport-selector/) |
 | 家宽机场 | 住宅 IP、机房 IP、ASN 与标签核验 | [家宽住宅 IP 专题](https://jiedianshouce.com/articles/residential-ip-airports/) |
 | 机场支付 | 支付宝、微信、USDT、PayPal 与退款风险 | [支付方式专题](https://jiedianshouce.com/articles/airport-payment-methods/) |
@@ -40,6 +42,8 @@
 | IP 检测 | 出口 IP、ASN、地理位置、住宅标签、DNS 泄漏 | [IP 检测](https://jiedianshouce.com/ip-check/) |
 
 ## 维护原则
+
+- 2026-11-07夜间聚焦修订：`/airports/`继续承接机场推荐及品牌资料查找，旧版评级顺序只作历史索引；`/articles/airport-recommendation-guide/`承接购买判断方法；`/start/`承接新手首次连接路径。原有免费节点、地区、套餐、线路与客户端故障主页面均保留。GSC最近完整7日为10月29日至11月4日的268展示、7点击；索引报告最后更新10月23日，不能用67已收录代表当前值。11月14日前后按页面及查询复查本次改进。
 
 - 2026-11-07 复核：Clash Verge Rev 远程配置 `invalid yaml` 由新专项页承接，订阅更新失败总排查保留跨客户端阶段入口；更新成功但无节点和TUN断网继续由现有页面承接。7号节点日期页只记录本批双端证据，不替代固定 `/free-nodes/`。最新Search Console查询和索引报告缺失，不能把线上可访问当作已收录；下次取得报告后记录展示、点击、CTR、平均排名及网页索引状态。
 - 2026-11-06 日更：Hiddify Linux `exit status 127` 由新专项页承接，安装与订阅为空继续由旧页承接；Clash订阅无节点旧页深修提供者获取阶段。11月6日日期页记录580条抽样配置、57条完成双端测试、44条最终双端复测通过并上线，覆盖13个国家和地区；固定免费节点页保留主入口。Search Console最新查询和索引数据仍缺，不声称新词已收录。

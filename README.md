@@ -6,11 +6,11 @@
 
 ## 最新更新
 
-**2026-11-06**
+**2026-11-07**
 
-- [机场资料参考榜](https://jiedianshouce.com/airports/)明确区分旧排序与现行套餐核验，三家资料不足的品牌暂停普通排序；[节点罗盘](https://jiedianshouce.com/airport-selector/)只按历史数值筛选，不以旧评分或线路标签推断当前适用性。
-- 全球云、飞猫云、光速云详情页撤下无法公开复核的性能数字及现行评分承诺；[TUN故障页](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/)增加同条件三状态诊断。
-- 11月5日免费节点仍为已发布的[9国13条历史测试记录](https://jiedianshouce.com/free-nodes/2026-11-05/)；本次SEO修订没有重新测试或替换下载。
+- [机场资料参考榜](https://jiedianshouce.com/airports/)补购买判断表和公开入口状态，旧评分只作历史资料；[机场选购指南](https://jiedianshouce.com/articles/airport-recommendation-guide/)补实际流量成本演算与购买前核对，[新手入口](https://jiedianshouce.com/start/)补来源选择路径。
+- 7号[免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-07/)发布12条双端复测通过的短时结果；本次SEO修订没有重新测试或替换下载。
+- Search Console已读取10月29日至11月4日的268展示、7点击；索引报告最后更新10月23日，不能据此判断本次修订是否被收录。
 - GitHub 只同步公开方法、数量、变更和验收规则，不存放节点配置、服务器地址、私人订阅或未脱敏日志。
 
 完整变更见 [CHANGELOG.md](CHANGELOG.md)，页面与主题对应关系见 [KEYWORD-MAP.md](KEYWORD-MAP.md)。
