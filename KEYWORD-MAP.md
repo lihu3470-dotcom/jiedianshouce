@@ -23,6 +23,7 @@
 | Clash Verge Rev 故障 | 无法选择配置、Socket错误、内核启动和端口占用 | [Clash Verge Rev Socket错误排查](https://jiedianshouce.com/articles/clash-verge-rev-cannot-select-profile-socket-error/) |
 | Clash Verge Rev 系统 DNS 报错 | set system dns failed、exit code 1、系统代理开启失败 | [系统 DNS 写入失败排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/) |
 | Clash Verge Rev TUN接管后断网 | 同节点系统代理可用、仅TUN接管失败时排查服务、接口、路由与DNS | [TUN无法上网排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
+| Clash Verge Rev 服务内核首次 IPC 超时但重试成功 | Windows 服务模式首次启动告警后已恢复，按最终状态、实际请求和日志时间线判断；持续安装失败或TUN断网回到各自旧页 | [服务内核 IPC 重试判断](https://jiedianshouce.com/articles/clash-verge-rev-service-core-ipc-timeout-retry/) |
 | 订阅更新失败 | HTTP错误、空内容、格式不兼容与缓存问题 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |
 | Clash Verge Rev 远程配置 YAML 精确报错 | 更新远程配置时 `the remote profile data is invalid yaml`，区分 HTTP、解析和缺字段阶段 | [Clash Verge Rev invalid yaml 排查](https://jiedianshouce.com/articles/clash-verge-rev-remote-profile-invalid-yaml/) |
 | Hiddify WARP 精确报错 | 添加或连接 WARP 时 `netip.ParsePrefix("/24")`、空 IP 地址前缀解析失败 | [Hiddify WARP 地址前缀排查](https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/) |
@@ -47,6 +48,7 @@
 
 ## 维护原则
 
+- 2026-11-09部分更新：服务内核首次 IPC 超时但重试成功由新专项页承接；TUN断网旧页保留其主意图并补控制接口故障分流。8号历史节点页标明9日复查的24条失败与3条地区未核验；9号新节点0条达到完整门槛，日期页和下载未上线。新文索引、展示与点击未知，11月16日至23日再看Search Console；机场评级与枫叶主页面未改。
 - 已有Google搜索证据的「机场评级」固定由`/airports/`承接，「枫叶机场」固定由`/airports/maple-relay/`承接。以后日更先对照Search Console和线上页面；没有用户明确要求与可核验事实，不改这两页的URL、标题主体、H1、canonical或主要搜索意图。11月8日按用户要求恢复枫叶原题，旧折扣是否生效仍以结算页为准；恢复标题不等于排名已恢复。
 - 其他已有查询或页面展示证据的主页面见[`docs/PROTECTED-SEARCH-PAGES.json`](docs/PROTECTED-SEARCH-PAGES.json)。每次发布前对完整预览运行`python scripts/check_protected_search_pages.py <预览网站目录>`；检查不通过时先核对用户是否明确要求改变该主题，不把加新内容当作改动已有效标题的理由。正文可在证据充分时补答案、来源、FAQ和自然内链，并在7–14天后对照GSC观察。
 - 2026-11-08复核：新v2rayN专项只承接macOS TUN跨核心切换后的端口占用，通用Core页保留其他启动失败；系统代理断网页补官方个案与阶段判断。固定免费节点入口展示8号27条，日期页承载当批证据。最近可用GSC仍为10月29日至11月4日268展示、7点击，索引截图67已收录仅是10月23日历史数；11月14日前后按查询、页面和索引状态复盘。

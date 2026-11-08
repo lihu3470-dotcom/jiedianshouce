@@ -2,6 +2,12 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-09（部分更新）
+
+- 新增 [Clash Verge Rev 服务内核首次 IPC 超时后重试成功的判断](https://jiedianshouce.com/articles/clash-verge-rev-service-core-ipc-timeout-retry/)：依据官方仓库 Issue #8480、#8474 区分已恢复的首次告警、持续启动失败和控制接口卡住；提供判断表、实际请求核验、限制及 5 个 FAQ。深修 [TUN 断网旧文](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/)，增加控制接口故障分流，收窄缺证的跨平台恢复断言，保留原 URL、标题、H1 和 canonical。
+- [11月8日节点历史帖](https://jiedianshouce.com/free-nodes/2026-11-08/)及固定入口增加9日复查标记：27条中24条未过双端请求或下载，3条通过请求和下载但出口地区未核验。旧下载仅作历史配置，不宣称今日可用。9号从公开来源去重取得2773条候选，6条完成双端测试，实际预览配置复测后0条合格；**9号日期页与下载没有上线**。
+- F190对本次三个冻结页面的独立审查PASS、0项必改；9个发布文件线上HTTP 200且哈希一致，文章库、站内搜索、RSS、sitemap及18组手机/桌面检查通过。机场评级和枫叶详情未改。较新Search Console报表仍未取得，新文收录、展示与排名未知；计划在11月16日至23日按查询和页面复盘。
+
 ## 2026-11-08
 
 - 按用户要求恢复[枫叶机场评测页](https://jiedianshouce.com/airports/maple-relay/)原有标题和H1，并同步站内搜索摘要与该URL的sitemap更新日期；正文仍说明历史套餐与85折须在结算页核对，不把旧宣传当作当期实测。`/airports/`的“机场评级”标题、H1、canonical和主要意图未改。已有搜索词列入保护地图；恢复标题不等于Google排名立即恢复，待7–14天核对Search Console。
