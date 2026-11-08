@@ -9,6 +9,8 @@
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
 | 免费节点历史 | 日期、数量、地区、丢包和测速证据 | [历史归档](https://jiedianshouce.com/free-nodes/archive/) |
 | 机场推荐 | 价格、流量、倍率、周期与公开证据 | [机场评级](https://jiedianshouce.com/airports/) |
+| 机场评级 | 品牌历史资料、评级口径与核验状态 | [机场评级](https://jiedianshouce.com/airports/) |
+| 枫叶机场 | 枫叶 Maple Relay 品牌评测、套餐记录与公开入口 | [枫叶机场完整评测](https://jiedianshouce.com/airports/maple-relay/) |
 | 机场选购方法 | 把最低付款额、倍率后流量、有效期和退款规则放到同一口径比较 | [机场推荐选购指南](https://jiedianshouce.com/articles/airport-recommendation-guide/) |
 | 新手连接入口 | 从选择付费服务或临时免费节点，到客户端、订阅导入与首次验证 | [第一次连接](https://jiedianshouce.com/start/) |
 | 机场历史条件筛选 | 按旧价格与流量缩小资料候选，现行套餐另行核对 | [节点罗盘](https://jiedianshouce.com/airport-selector/) |
@@ -45,6 +47,7 @@
 
 ## 维护原则
 
+- 已有Google搜索证据的「机场评级」固定由`/airports/`承接，「枫叶机场」固定由`/airports/maple-relay/`承接。以后日更先对照Search Console和线上页面；没有用户明确要求与可核验事实，不改这两页的URL、标题主体、H1、canonical或主要搜索意图。11月8日按用户要求恢复枫叶原题，旧折扣是否生效仍以结算页为准；恢复标题不等于排名已恢复。
 - 2026-11-08复核：新v2rayN专项只承接macOS TUN跨核心切换后的端口占用，通用Core页保留其他启动失败；系统代理断网页补官方个案与阶段判断。固定免费节点入口展示8号27条，日期页承载当批证据。最近可用GSC仍为10月29日至11月4日268展示、7点击，索引截图67已收录仅是10月23日历史数；11月14日前后按查询、页面和索引状态复盘。
 - 2026-11-07夜间聚焦修订：`/airports/`继续承接机场推荐及品牌资料查找，旧版评级顺序只作历史索引；`/articles/airport-recommendation-guide/`承接购买判断方法；`/start/`承接新手首次连接路径。原有免费节点、地区、套餐、线路与客户端故障主页面均保留。GSC最近完整7日为10月29日至11月4日的268展示、7点击；索引报告最后更新10月23日，不能用67已收录代表当前值。11月14日前后按页面及查询复查本次改进。
 

@@ -4,6 +4,7 @@
 
 ## 2026-11-08
 
+- 按用户要求恢复[枫叶机场评测页](https://jiedianshouce.com/airports/maple-relay/)原有标题和H1，并同步站内搜索摘要与该URL的sitemap更新日期；正文仍说明历史套餐与85折须在结算页核对，不把旧宣传当作当期实测。`/airports/`的“机场评级”标题、H1、canonical和主要意图未改。已有搜索词列入保护地图；恢复标题不等于Google排名立即恢复，待7–14天核对Search Console。
 - 新增[v2rayN macOS TUN跨核心切换端口占用专项](https://jiedianshouce.com/articles/v2rayn-macos-tun-core-switch-port-in-use/)：依据官方问题记录区分监听端口、进程和核心切换阶段，含判断表、恢复顺序、限制、5个FAQ及自然内链。深修[Clash Verge Rev系统代理断网旧文](https://jiedianshouce.com/articles/clash-verge-rev-system-proxy-no-internet/)，增加macOS写入失败个案与分阶段排查；近可用7日该旧页21展示、0点击，具体查询与排名尚未取得。
 - [10月24日历史节点帖](https://jiedianshouce.com/free-nodes/2026-10-24/)核对6份单文件与总包顺序，撤回无法逐条映射旧截图的性能结论。8号复查4号批次29条：18条通过、5条失败、6条未核验；7号批次12条：6条通过、5条失败、1条未核验，状态置于历史下载旁。
 - 发布[11月8日免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-08/)：8份公开来源、1338条跨历史去重候选、66条完成两台独立出口各10次HTTPS请求与固定下载；28条初选，实际文件复测剔除原编号20，最终15个国家和地区、27条下载（VLESS 25、VMess 2）。结果仅代表北京时间8号02:41至02:52的短时窗口；用户明确要求上线前不再重测，故没有声称发布时仍可用。海豚测速未执行。
