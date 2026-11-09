@@ -39,6 +39,7 @@
 | 2026-11-06 免费节点批次 | 四轮公开候选、独立双端测试、最终复测、中文地区名与下载证据 | [11月6日测试记录](https://jiedianshouce.com/free-nodes/2026-11-06/) |
 | 2026-11-07 免费节点批次 | 当批480条新候选、38条双端测试、13条初选与剔除失效节点后的12条最终下载 | [11月7日测试记录](https://jiedianshouce.com/free-nodes/2026-11-07/) |
 | 2026-11-08 免费节点批次 | 8份公开来源、1338条去重候选、66条双端测试、27条最终下载及原编号20的剔除证据 | [11月8日测试记录](https://jiedianshouce.com/free-nodes/2026-11-08/) |
+| 2026-11-09 免费节点批次 | 五轮2936条去重候选、56条双端测试、实际下载文件复测后26条及12个出口国家和地区；日期证据页不取代固定免费节点主入口 | [11月9日测试记录](https://jiedianshouce.com/free-nodes/2026-11-09/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |
