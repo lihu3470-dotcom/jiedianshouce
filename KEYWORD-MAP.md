@@ -25,6 +25,7 @@
 | Clash Verge Rev TUN接管后断网 | 同节点系统代理可用、仅TUN接管失败时排查服务、接口、路由与DNS | [TUN无法上网排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
 | Clash Verge Rev 服务内核首次 IPC 超时但重试成功 | Windows 服务模式首次启动告警后已恢复，按最终状态、实际请求和日志时间线判断；持续安装失败或TUN断网回到各自旧页 | [服务内核 IPC 重试判断](https://jiedianshouce.com/articles/clash-verge-rev-service-core-ipc-timeout-retry/) |
 | 订阅更新失败 | HTTP错误、空内容、格式不兼容与缓存问题 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |
+| v2rayN 已取得订阅却提示 Failed to import subscription content | HTTP 内容已取回后，核对 gzip 响应与导入解析阶段；不替代通用订阅导入或更新后列表为空的排查 | [v2rayN gzip 导入失败专项](https://jiedianshouce.com/articles/v2rayn-subscription-gzip-import-failed/) |
 | Clash Verge Rev 远程配置 YAML 精确报错 | 更新远程配置时 `the remote profile data is invalid yaml`，区分 HTTP、解析和缺字段阶段 | [Clash Verge Rev invalid yaml 排查](https://jiedianshouce.com/articles/clash-verge-rev-remote-profile-invalid-yaml/) |
 | Hiddify WARP 精确报错 | 添加或连接 WARP 时 `netip.ParsePrefix("/24")`、空 IP 地址前缀解析失败 | [Hiddify WARP 地址前缀排查](https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/) |
 | Hiddify 订阅后无节点 | 订阅获取、解析、保存与配置选择，不承接 WARP 前缀错误 | [Hiddify 订阅无节点排查](https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/) |
@@ -40,6 +41,7 @@
 | 2026-11-07 免费节点批次 | 当批480条新候选、38条双端测试、13条初选与剔除失效节点后的12条最终下载 | [11月7日测试记录](https://jiedianshouce.com/free-nodes/2026-11-07/) |
 | 2026-11-08 免费节点批次 | 8份公开来源、1338条去重候选、66条双端测试、27条最终下载及原编号20的剔除证据 | [11月8日测试记录](https://jiedianshouce.com/free-nodes/2026-11-08/) |
 | 2026-11-09 免费节点批次 | 五轮2936条去重候选、56条双端测试、实际下载文件复测后26条及12个出口国家和地区；日期证据页不取代固定免费节点主入口 | [11月9日测试记录](https://jiedianshouce.com/free-nodes/2026-11-09/) |
+| 2026-11-10 免费节点批次 | 524条跨历史端点去重候选、44条双端测试、35份中文地区名实际下载文件两端复测通过；14个国家和地区，日期证据页不替代固定主入口 | [11月10日测试记录](https://jiedianshouce.com/free-nodes/2026-11-10/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |

@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-10
+
+- 新增 [v2rayN gzip 订阅导入失败专项](https://jiedianshouce.com/articles/v2rayn-subscription-gzip-import-failed/)：依据官方仓库 Issue #10138 与 HTTP 编码文档，区分请求失败、压缩响应处理和导入后列表为空，含判断表、操作步骤、限制及 5 个 FAQ。深修[通用订阅导入指南](https://jiedianshouce.com/articles/clash-v2rayn-subscription-import/)，增加“已取回却导入失败”的分流和自然内链；旧文 URL、标题、H1、canonical 不变。
+- [10号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-10/)上线 35 条、14 个国家和地区：524 条跨历史端点去重候选，44 条完成两台不同公网出口各 10 次真实 HTTPS 请求和固定文件下载；35 条满足两端门槛及两家地理来源一致。中文地区名的实际 35 份配置再次双端复测通过。短时结果不保证持续可用，请求失败率不是丢包率，海豚测速未执行。
+- 10号复查[9号26条](https://jiedianshouce.com/free-nodes/2026-11-09/)和[4号29条](https://jiedianshouce.com/free-nodes/2026-11-04/)历史配置：前者25条请求/下载通过、第26条两端0/10且下载失败；后者22条请求/下载通过、7条未通过。地区本次未重核，不能称通过项今日完整合格；旧总包保留为历史配置并标出失败项。
+- 机场16个公开入口13个返回200、3个403，缺少新的结算与退款证据，机场评级、枫叶位置和既有说明未改。55个发布文件线上HTTP 200且哈希一致，36组移动/桌面检查通过；F190冻结版独立审查PASS、0项必改。较新Search Console报告仍缺，10号新页索引、展示和排名未知；11月17日至24日按查询和页面复查。
+
 ## 2026-11-09
 
 - 新增 [Clash Verge Rev 服务内核首次 IPC 超时后重试成功的判断](https://jiedianshouce.com/articles/clash-verge-rev-service-core-ipc-timeout-retry/)：依据官方仓库 Issue #8480、#8474 区分已恢复的首次告警、持续启动失败和控制接口卡住；提供判断表、实际请求核验、限制及 5 个 FAQ。深修 [TUN 断网旧文](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/)，增加控制接口故障分流，收窄缺证的跨平台恢复断言，保留原 URL、标题、H1 和 canonical。
