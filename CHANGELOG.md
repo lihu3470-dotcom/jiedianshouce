@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-11
+
+- 新增 [Hiddify tunnel-per-resolver 字段解析报错专项](https://jiedianshouce.com/articles/hiddify-tunnel-per-resolver-unknown-field/)：依据官方 Issues #2295、#2203 区分配置获取、字段解析和连接阶段，提供判断表、步骤、限制、5个FAQ及自然内链。深修[Hiddify订阅更新后无节点](https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/)，补明确解析错误的分流；原标题、H1与canonical不变。
+- [11号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-11/)上线29条、12个国家和地区：900条跨历史端点去重候选，59条完成两台不同公网出口各10次真实HTTPS请求和固定262144字节下载，30条通过两端请求/下载门槛，其中1条地区资料冲突剔除；29份实际下载YAML再次双端复测并经两家地理来源核对。15条配置启用跳过代理服务器证书校验，已逐条标注；优先展示代理TLS且未跳过校验的03、23，总包选择组把03列首位。短时通过不保证持续可用，海豚测速未执行。
+- 11号复查[10号35条](https://jiedianshouce.com/free-nodes/2026-11-10/)、[9号26条](https://jiedianshouce.com/free-nodes/2026-11-09/)和[4号29条](https://jiedianshouce.com/free-nodes/2026-11-04/)：分别29、21、21条通过两端请求与下载，6、5、8条未过；旧批次地区未重核。逐条下载旁显示本次状态，旧总包保留原始配置。
+- 首页改为指向11号批次并移除过期10月信息；补齐订阅故障总入口统计代码，同步文章库、专题、更新记录、搜索、RSS和sitemap。机场16个公开入口13个200、3个403，缺新结算证据，机场评级与枫叶展示未改。53个发布文件线上HTTPS 200且哈希一致，36组手机/桌面检查通过，独立冻结审查PASS、0项必改。GSC完整7日仍仅可核对截至11月4日的268展示、7点击；新页索引与排名未知，11月18日至25日复查。
+
 ## 2026-11-10
 
 - 新增 [v2rayN gzip 订阅导入失败专项](https://jiedianshouce.com/articles/v2rayn-subscription-gzip-import-failed/)：依据官方仓库 Issue #10138 与 HTTP 编码文档，区分请求失败、压缩响应处理和导入后列表为空，含判断表、操作步骤、限制及 5 个 FAQ。深修[通用订阅导入指南](https://jiedianshouce.com/articles/clash-v2rayn-subscription-import/)，增加“已取回却导入失败”的分流和自然内链；旧文 URL、标题、H1、canonical 不变。

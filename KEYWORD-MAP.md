@@ -29,6 +29,7 @@
 | Clash Verge Rev 远程配置 YAML 精确报错 | 更新远程配置时 `the remote profile data is invalid yaml`，区分 HTTP、解析和缺字段阶段 | [Clash Verge Rev invalid yaml 排查](https://jiedianshouce.com/articles/clash-verge-rev-remote-profile-invalid-yaml/) |
 | Hiddify WARP 精确报错 | 添加或连接 WARP 时 `netip.ParsePrefix("/24")`、空 IP 地址前缀解析失败 | [Hiddify WARP 地址前缀排查](https://jiedianshouce.com/articles/hiddify-warp-parseprefix-empty-ip/) |
 | Hiddify 订阅后无节点 | 订阅获取、解析、保存与配置选择，不承接 WARP 前缀错误 | [Hiddify 订阅无节点排查](https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/) |
+| Hiddify 导入时明确报 tunnel-per-resolver unknown field | 配置已取得，但在 SingboxParser 字段解析阶段失败；不与更新后列表为空或 WARP 故障混用 | [Hiddify 字段解析报错排查](https://jiedianshouce.com/articles/hiddify-tunnel-per-resolver-unknown-field/) |
 | Hiddify Linux TUN 启动精确故障 | 授权后 `Bad state: exit status 127`、帮助进程或共享库加载阶段；区别于订阅为空和一般安装 | [Hiddify Linux 127 错误排查](https://jiedianshouce.com/articles/hiddify-linux-tun-exit-status-127/) |
 | Hiddify 常规使用 | 安装、导入、连接及 WARP 与普通订阅分流 | [Hiddify 完整教程](https://jiedianshouce.com/tools/hiddify/) |
 | sing-box 远程规则集冷启动故障 | 核心 `route.rule_set` 远程文件在无缓存启动时下载或解析失败；区别于客户端订阅更新 | [sing-box 远程规则集启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/) |
@@ -42,6 +43,7 @@
 | 2026-11-08 免费节点批次 | 8份公开来源、1338条去重候选、66条双端测试、27条最终下载及原编号20的剔除证据 | [11月8日测试记录](https://jiedianshouce.com/free-nodes/2026-11-08/) |
 | 2026-11-09 免费节点批次 | 五轮2936条去重候选、56条双端测试、实际下载文件复测后26条及12个出口国家和地区；日期证据页不取代固定免费节点主入口 | [11月9日测试记录](https://jiedianshouce.com/free-nodes/2026-11-09/) |
 | 2026-11-10 免费节点批次 | 524条跨历史端点去重候选、44条双端测试、35份中文地区名实际下载文件两端复测通过；14个国家和地区，日期证据页不替代固定主入口 | [11月10日测试记录](https://jiedianshouce.com/free-nodes/2026-11-10/) |
+| 2026-11-11 免费节点批次 | 900条去重候选、59条双端测试、29份实际下载文件复测通过；12个国家和地区，15条配置跳过代理证书校验已逐条标注，日期记录不替代固定主入口 | [11月11日测试记录](https://jiedianshouce.com/free-nodes/2026-11-11/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |
@@ -51,6 +53,7 @@
 
 ## 维护原则
 
+- 2026-11-11日更：Hiddify `tunnel-per-resolver` 明确字段错误由新专项页承接，更新后无节点旧文补解析阶段分流；订阅总排查页保留通用入口。11号29条节点进入日期页与固定入口，15条跳过代理证书校验的配置已标明，优先与总包选择顺序为03、23。10号、9号、4号旧批次逐条显示11号复查结果。机场页面及枫叶位置、价格、85折展示未改。最新可核对GSC完整7日仍截至11月4日，11号新页索引与排名未知；11月18日至25日按查询与页面复查。
 - 2026-11-09部分更新：服务内核首次 IPC 超时但重试成功由新专项页承接；TUN断网旧页保留其主意图并补控制接口故障分流。8号历史节点页标明9日复查的24条失败与3条地区未核验；9号新节点0条达到完整门槛，日期页和下载未上线。新文索引、展示与点击未知，11月16日至23日再看Search Console；机场评级与枫叶主页面未改。
 - 已有Google搜索证据的「机场评级」固定由`/airports/`承接，「枫叶机场」固定由`/airports/maple-relay/`承接。以后日更先对照Search Console和线上页面；没有用户明确要求与可核验事实，不改这两页的URL、标题主体、H1、canonical或主要搜索意图。11月8日按用户要求恢复枫叶原题，旧折扣是否生效仍以结算页为准；恢复标题不等于排名已恢复。
 - 其他已有查询或页面展示证据的主页面见[`docs/PROTECTED-SEARCH-PAGES.json`](docs/PROTECTED-SEARCH-PAGES.json)。每次发布前对完整预览运行`python scripts/check_protected_search_pages.py <预览网站目录>`；检查不通过时先核对用户是否明确要求改变该主题，不把加新内容当作改动已有效标题的理由。正文可在证据充分时补答案、来源、FAQ和自然内链，并在7–14天后对照GSC观察。
