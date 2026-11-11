@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-12
+
+- 新增[v2rayNG allowInsecure has been removed 配置加载故障专项](https://jiedianshouce.com/articles/v2rayng-allowinsecure-removed-tls-config/)：依据官方 Issue #6141及发布说明，区分旧字段拒绝、证书握手与网络超时，含判断表、步骤、限制、5个FAQ及自然内链。深修[已连接但无法上网旧文](https://jiedianshouce.com/articles/v2rayng-connected-no-internet/)，补配置尚未加载时的分流，保留其标题、H1与canonical。
+- [12号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-12/)发布15条、6个国家和地区：11个公开来源中9个贡献新候选，659条跨历史端点去重，29条完成两台不同公网出口各10次HTTPS请求与固定262144字节下载；18条初次通过门槛及地区核验，实际文件复测剔除3条，最终15条进入下载。短时结果不保证当前或长期可用，海豚测速未执行。
+- 12号复查[4号29条](https://jiedianshouce.com/free-nodes/2026-11-04/)：22条通过两端请求与固定下载，7条未过，地区未重核；下载旁标明最新状态，旧总包仍含未过配置。11号原29条Clash YAML不变，新增sing-box JSON 29条与VLESS/SS链接10条；格式检查不等于目标客户端实机导入或连接成功。
+- 首页、文章库、故障专题、更新记录、搜索、RSS及sitemap同步。机场公开入口13个200、3个403，枫叶频道与85折入口200；机场榜单与枫叶展示未改。F190冻结预览审查PASS、0项必改；发布38个文件及随后3处文案修正均经线上哈希验收，39组移动/桌面检查通过。GSC最近可核对完整7日仍截至11月4日的268展示、7点击；12号新页索引与排名未知，11月19日至26日复查。
+
 ## 2026-11-11
 
 - 新增 [Hiddify tunnel-per-resolver 字段解析报错专项](https://jiedianshouce.com/articles/hiddify-tunnel-per-resolver-unknown-field/)：依据官方 Issues #2295、#2203 区分配置获取、字段解析和连接阶段，提供判断表、步骤、限制、5个FAQ及自然内链。深修[Hiddify订阅更新后无节点](https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/)，补明确解析错误的分流；原标题、H1与canonical不变。
