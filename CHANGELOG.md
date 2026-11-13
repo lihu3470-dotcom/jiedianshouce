@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-13
+
+- 新增[sing-box auto_redirect nftables 明确报错专项](https://jiedianshouce.com/articles/sing-box-auto-redirect-nftables-operation-not-supported/)：依据官方TUN文档与Issue #4588，区分Linux系统规则安装失败、权限、默认接口和远程规则集问题，含判断表、步骤、限制、5个FAQ及自然内链。深修[Clash Verge Rev系统代理断网页](https://jiedianshouce.com/articles/clash-verge-rev-system-proxy-no-internet/)，补同网址显式本地端口对照；旧页URL、标题、H1与canonical不变。
+- [13号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-13/)发布20条、10个国家和地区：11个公开来源、568条跨历史去重候选、30条双端测试，23条通过初次地区核验；23份实际YAML复测后剔除3条，最终20条通过两台不同公网出口各10次HTTPS请求、固定262144字节下载及两家地区来源核验。短时结果不保证当前或长期可用，海豚测速未执行。
+- 13号复查[4号原29条](https://jiedianshouce.com/free-nodes/2026-11-04/)和[12号原15条](https://jiedianshouce.com/free-nodes/2026-11-12/)：分别21条、11条通过双端请求和固定下载，8条、4条未过；地区本轮未重核。历史页与下载旁标明最新状态，原总包仍含失败配置。
+- 首页、固定免费节点页、文章库、故障专题、每日记录、搜索、RSS及sitemap同步。机场16个公开入口13个200、3个403；机场榜单及枫叶展示未改。F190冻结预览审查PASS、0项必改；41个文件线上HTTPS 200且哈希一致，39组手机/桌面检查与站内搜索通过。GSC最近可核对完整7日仍截至11月4日的268展示、7点击；13号新页索引与排名未知，11月20日至27日复查。
+
 ## 2026-11-12
 
 - 新增[v2rayNG allowInsecure has been removed 配置加载故障专项](https://jiedianshouce.com/articles/v2rayng-allowinsecure-removed-tls-config/)：依据官方 Issue #6141及发布说明，区分旧字段拒绝、证书握手与网络超时，含判断表、步骤、限制、5个FAQ及自然内链。深修[已连接但无法上网旧文](https://jiedianshouce.com/articles/v2rayng-connected-no-internet/)，补配置尚未加载时的分流，保留其标题、H1与canonical。

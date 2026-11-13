@@ -34,6 +34,7 @@
 | Hiddify Linux TUN 启动精确故障 | 授权后 `Bad state: exit status 127`、帮助进程或共享库加载阶段；区别于订阅为空和一般安装 | [Hiddify Linux 127 错误排查](https://jiedianshouce.com/articles/hiddify-linux-tun-exit-status-127/) |
 | Hiddify 常规使用 | 安装、导入、连接及 WARP 与普通订阅分流 | [Hiddify 完整教程](https://jiedianshouce.com/tools/hiddify/) |
 | sing-box 远程规则集冷启动故障 | 核心 `route.rule_set` 远程文件在无缓存启动时下载或解析失败；区别于客户端订阅更新 | [sing-box 远程规则集启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/) |
+| sing-box Linux TUN 自动重定向规则报错 | 启用 `auto_redirect` 后，安装 nftables 规则明确报 `operation not supported`；区别于远程规则集和普通节点断网 | [sing-box nftables 报错排查](https://jiedianshouce.com/articles/sing-box-auto-redirect-nftables-operation-not-supported/) |
 | v2rayN精确报错 | ArgumentOutOfRange_Count、订阅成功但节点列表为空 | [v2rayN节点列表为空排查](https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/) |
 | v2rayN内核启动故障 | 运行Core失败、内核进程无法启动 | [v2rayN运行Core失败排查](https://jiedianshouce.com/articles/v2rayn-core-start-failed/) |
 | v2rayN macOS TUN跨核心切换端口占用 | 开启TUN期间从sing-box切到Xray后出现 `address already in use`，先核对实际监听端口和进程；一般Core启动故障仍由上页承接 | [v2rayN macOS端口占用排查](https://jiedianshouce.com/articles/v2rayn-macos-tun-core-switch-port-in-use/) |
@@ -46,6 +47,7 @@
 | 2026-11-10 免费节点批次 | 524条跨历史端点去重候选、44条双端测试、35份中文地区名实际下载文件两端复测通过；14个国家和地区，日期证据页不替代固定主入口 | [11月10日测试记录](https://jiedianshouce.com/free-nodes/2026-11-10/) |
 | 2026-11-11 免费节点批次 | 900条去重候选、59条双端测试、29份实际下载文件复测通过；12个国家和地区，15条配置跳过代理证书校验已逐条标注，日期记录不替代固定主入口 | [11月11日测试记录](https://jiedianshouce.com/free-nodes/2026-11-11/) |
 | 2026-11-12 免费节点批次 | 659条跨历史去重候选、29条双端测试、15份实际配置双端复测通过；6个国家和地区，日期记录不替代固定主入口 | [11月12日测试记录](https://jiedianshouce.com/free-nodes/2026-11-12/) |
+| 2026-11-13 免费节点批次 | 568条跨历史去重候选、30条双端测试、20份实际配置双端复测通过；10个国家和地区，日期记录不替代固定主入口 | [11月13日测试记录](https://jiedianshouce.com/free-nodes/2026-11-13/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |
@@ -55,6 +57,7 @@
 
 ## 维护原则
 
+- 2026-11-13日更：sing-box `auto_redirect` 安装 nftables 规则失败由新专项承接，Clash Verge Rev 系统代理断网页保留原主题并补显式本地端口对照。13号20条节点进入日期页与固定入口；4号旧批次21/29、12号旧批次11/15通过13号双端请求与下载复查，地区未重核。机场评级与枫叶展示未改。GSC可核对完整7日仍截至11月4日，新页索引与排名未知，约11月20日至27日复查。
 - 2026-11-12日更：v2rayNG `allowInsecure has been removed` 明确配置加载错误由新专项承接，已连接但无法上网旧文仅补启动前分流并保留原意图。12号15条节点进入日期页与固定入口；4号旧批次22/29通过双端请求与下载，7条未过，地区未重核。11号29条原YAML保持不变，新增sing-box JSON和10条VLESS/SS链接，但目标客户端实机导入与连接未验证。机场评级与枫叶展示未改。GSC可用完整7日仍截至11月4日，12号新页索引与排名未知，约11月19日至26日复查。
 - 2026-11-11日更：Hiddify `tunnel-per-resolver` 明确字段错误由新专项页承接，更新后无节点旧文补解析阶段分流；订阅总排查页保留通用入口。11号29条节点进入日期页与固定入口，15条跳过代理证书校验的配置已标明，优先与总包选择顺序为03、23。10号、9号、4号旧批次逐条显示11号复查结果。机场页面及枫叶位置、价格、85折展示未改。最新可核对GSC完整7日仍截至11月4日，11号新页索引与排名未知；11月18日至25日按查询与页面复查。
 - 2026-11-09部分更新：服务内核首次 IPC 超时但重试成功由新专项页承接；TUN断网旧页保留其主意图并补控制接口故障分流。8号历史节点页标明9日复查的24条失败与3条地区未核验；9号新节点0条达到完整门槛，日期页和下载未上线。新文索引、展示与点击未知，11月16日至23日再看Search Console；机场评级与枫叶主页面未改。
