@@ -32,6 +32,7 @@
 | Hiddify 导入时明确报 tunnel-per-resolver unknown field | 配置已取得，但在 SingboxParser 字段解析阶段失败；不与更新后列表为空或 WARP 故障混用 | [Hiddify 字段解析报错排查](https://jiedianshouce.com/articles/hiddify-tunnel-per-resolver-unknown-field/) |
 | v2rayNG 明确报 allowInsecure has been removed | 核心加载 TLS 配置时旧字段被拒；区别于已连接后网页打不开、证书握手错误或单纯延迟 -1 | [v2rayNG TLS 旧字段排查](https://jiedianshouce.com/articles/v2rayng-allowinsecure-removed-tls-config/) |
 | Hiddify Linux TUN 启动精确故障 | 授权后 `Bad state: exit status 127`、帮助进程或共享库加载阶段；区别于订阅为空和一般安装 | [Hiddify Linux 127 错误排查](https://jiedianshouce.com/articles/hiddify-linux-tun-exit-status-127/) |
+| Hiddify Windows VPN/TUN `HiddifyCli.exe` 提权报错 | Windows连接时启动进程明确报 `The requested operation requires elevation`；区别于Linux 127、订阅为空和其他客户端TUN断网 | [Hiddify Windows提权错误排查](https://jiedianshouce.com/articles/hiddify-windows-tun-hiddifycli-elevation-required/) |
 | Hiddify 常规使用 | 安装、导入、连接及 WARP 与普通订阅分流 | [Hiddify 完整教程](https://jiedianshouce.com/tools/hiddify/) |
 | sing-box 远程规则集冷启动故障 | 核心 `route.rule_set` 远程文件在无缓存启动时下载或解析失败；区别于客户端订阅更新 | [sing-box 远程规则集启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/) |
 | sing-box Linux TUN 自动重定向规则报错 | 启用 `auto_redirect` 后，安装 nftables 规则明确报 `operation not supported`；区别于远程规则集和普通节点断网 | [sing-box nftables 报错排查](https://jiedianshouce.com/articles/sing-box-auto-redirect-nftables-operation-not-supported/) |
@@ -48,6 +49,7 @@
 | 2026-11-11 免费节点批次 | 900条去重候选、59条双端测试、29份实际下载文件复测通过；12个国家和地区，15条配置跳过代理证书校验已逐条标注，日期记录不替代固定主入口 | [11月11日测试记录](https://jiedianshouce.com/free-nodes/2026-11-11/) |
 | 2026-11-12 免费节点批次 | 659条跨历史去重候选、29条双端测试、15份实际配置双端复测通过；6个国家和地区，日期记录不替代固定主入口 | [11月12日测试记录](https://jiedianshouce.com/free-nodes/2026-11-12/) |
 | 2026-11-13 免费节点批次 | 568条跨历史去重候选、30条双端测试、20份实际配置双端复测通过；10个国家和地区，日期记录不替代固定主入口 | [11月13日测试记录](https://jiedianshouce.com/free-nodes/2026-11-13/) |
+| 2026-11-14 免费节点批次 | 补充轮9593条跨历史去重候选中先筛1500条；260条双出口实测，最后26份实际文件同轮复测后选20份，覆盖12个国家和地区；日期记录不替代固定主入口 | [11月14日测试记录](https://jiedianshouce.com/free-nodes/2026-11-14/) |
 | FlClash空配置故障 | configuration file config.yaml is empty、切换配置失败、当前配置指针失效 | [FlClash空配置与切换失败排查](https://jiedianshouce.com/articles/flclash-config-yaml-empty-profile-switch/) |
 | 订阅转换安全 | Clash订阅转换、V2Ray转Clash、在线转换信任边界 | [订阅转换安全](https://jiedianshouce.com/articles/subscription-conversion-safety/) |
 | 移动与高级客户端 | Shadowrocket、Surge、sing-box、v2rayNG | [移动与高级客户端](https://jiedianshouce.com/articles/mobile-advanced-proxy-clients/) |

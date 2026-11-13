@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-14
+
+- 新增[Hiddify Windows VPN/TUN `HiddifyCli.exe` 提权报错排查](https://jiedianshouce.com/articles/hiddify-windows-tun-hiddifycli-elevation-required/)：限定官方 Issue 个案的事实边界，提供判断表、可回退步骤、限制、5个FAQ及自然内链。深修[Clash Verge Rev TUN断网页](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/)，补同设备、同网络和同节点的路由前后对照；旧文URL、标题、H1和canonical不变。
+- [14号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-14/)上线20条、12个国家和地区：补充轮24个公开来源尝试，20个取回；9593条跨历史去重候选中先筛1500条，260条进入完整双出口测试，193条通过请求与下载门槛。与原11条合并的47份实际配置初复测留36条。上线前两轮掉线配置均剔除；最后26份不改名的实际文件同轮复测25份合格，选其中20份发布。北京时间04:43:00至04:44:46，两台不同公网出口各完成10次真实HTTPS请求及262144字节下载，两家IP地区来源一致。短时结果不保证当前或长期可用；其他客户端实机导入和海豚测速未做。
+- 14号复查[4号原29条](https://jiedianshouce.com/free-nodes/2026-11-04/)和[13号原20条](https://jiedianshouce.com/free-nodes/2026-11-13/)：分别20条、19条通过双端请求与下载，旧总包含失败配置，地区本轮未重核。机场16个公开入口13个200、3个403；机场榜单和枫叶展示未改。
+- 首页、固定入口、归档、文章库、搜索、RSS及sitemap同步。F190冻结预览审查PASS、0项必改；46个发布文件线上200且哈希一致，20份单节点和总包均可下载，39组手机/桌面检查及站内搜索通过。GSC最近可核对完整7日仍截至11月4日的268展示、7点击；14号新页索引与排名未知，11月21日至28日按查询和页面复查。
+
 ## 2026-11-13
 
 - 新增[sing-box auto_redirect nftables 明确报错专项](https://jiedianshouce.com/articles/sing-box-auto-redirect-nftables-operation-not-supported/)：依据官方TUN文档与Issue #4588，区分Linux系统规则安装失败、权限、默认接口和远程规则集问题，含判断表、步骤、限制、5个FAQ及自然内链。深修[Clash Verge Rev系统代理断网页](https://jiedianshouce.com/articles/clash-verge-rev-system-proxy-no-internet/)，补同网址显式本地端口对照；旧页URL、标题、H1与canonical不变。
