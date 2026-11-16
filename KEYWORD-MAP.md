@@ -7,6 +7,7 @@
 | 主题 | 主要搜索意图 | 主页面 |
 | --- | --- | --- |
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
+| 2026-11-16 免费节点批次 | 16号20份原配置的双端请求、固定下载、地区来源与历史时效；日期证据页不替代固定入口 | [16号测试记录](https://jiedianshouce.com/free-nodes/2026-11-16/) |
 | 免费节点历史 | 日期、数量、地区、丢包和测速证据 | [历史归档](https://jiedianshouce.com/free-nodes/archive/) |
 | 机场推荐 | 价格、流量、倍率、周期与公开证据 | [机场评级](https://jiedianshouce.com/airports/) |
 | 机场评级 | 品牌历史资料、评级口径与核验状态 | [机场评级](https://jiedianshouce.com/airports/) |
@@ -22,6 +23,7 @@
 | 客户端导入 | Clash、Clash Verge、v2rayN 与订阅导入 | [客户端选择与导入](https://jiedianshouce.com/articles/clash-v2rayn-subscription-import/) |
 | Clash Verge Rev 故障 | 无法选择配置、Socket错误、内核启动和端口占用 | [Clash Verge Rev Socket错误排查](https://jiedianshouce.com/articles/clash-verge-rev-cannot-select-profile-socket-error/) |
 | Clash Verge Rev 系统 DNS 报错 | set system dns failed、exit code 1、系统代理开启失败 | [系统 DNS 写入失败排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/) |
+| Clash Verge Rev `dns.fake-ip-filter invalid domain` | Mihomo 加载配置时域名通配符校验失败；YAML解析错误与启动后系统代理断网分别由原有页面承接 | [Fake IP 过滤项语法排查](https://jiedianshouce.com/articles/clash-verge-rev-fake-ip-filter-invalid-domain/) |
 | Clash Verge Rev TUN接管后断网 | 同节点系统代理可用、仅TUN接管失败时排查服务、接口、路由与DNS | [TUN无法上网排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
 | Clash Verge Rev 服务内核首次 IPC 超时但重试成功 | Windows 服务模式首次启动告警后已恢复，按最终状态、实际请求和日志时间线判断；持续安装失败或TUN断网回到各自旧页 | [服务内核 IPC 重试判断](https://jiedianshouce.com/articles/clash-verge-rev-service-core-ipc-timeout-retry/) |
 | 订阅更新失败 | HTTP错误、空内容、格式不兼容与缓存问题 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |

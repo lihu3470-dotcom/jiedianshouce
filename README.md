@@ -6,11 +6,11 @@
 
 ## 最新更新
 
-**2026-11-08**
+**2026-11-16**
 
-- 新增[v2rayN macOS TUN跨核心切换端口占用排查](https://jiedianshouce.com/articles/v2rayn-macos-tun-core-switch-port-in-use/)，深修Clash Verge Rev系统代理断网页，并修订10月24日历史节点资料边界。
-- [8号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-08/)发布27条、覆盖15个国家和地区。结果只代表北京时间8号02:41至02:52的双端复测窗口；按用户要求，上线前没有再次测试。
-- 54个发布文件均在线返回200且哈希一致，36组手机和桌面检查及站内搜索通过。较新的Search Console报告尚未取得，不声称本批已获收录或流量增长。
+- 新增[Clash Verge Rev `fake-ip-filter invalid domain` 排查](https://jiedianshouce.com/articles/clash-verge-rev-fake-ip-filter-invalid-domain/)，深修系统代理断网页。
+- [16号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-16/)发布20条、覆盖14个国家和地区；最终双出口复测只代表16日08:27至08:28的测试时刻。
+- 4号旧批次29条于16日复查21条通过请求与下载、8条未过，地区未重核。较新的Search Console报告尚未取得，不声称本批已获收录或流量增长。
 - GitHub 只同步公开方法、数量、变更和验收规则，不存放节点配置、服务器地址、私人订阅或未脱敏日志。
 
 完整变更见 [CHANGELOG.md](CHANGELOG.md)，页面与主题对应关系见 [KEYWORD-MAP.md](KEYWORD-MAP.md)。

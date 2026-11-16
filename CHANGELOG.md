@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-16
+
+- 新增[Clash Verge Rev `fake-ip-filter invalid domain` 排查](https://jiedianshouce.com/articles/clash-verge-rev-fake-ip-filter-invalid-domain/)：依据官方问题 #8462、Mihomo 问题 #3116 与官方通配符语法说明，限定为配置加载阶段的精确报错；含判断表、可回退步骤、限制、5个FAQ和自然内链。深修[系统代理开启后无法上网](https://jiedianshouce.com/articles/clash-verge-rev-system-proxy-no-internet/)，补配置校验后到实际流量接管的分层诊断及来源边界。
+- [16号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-16/)上线20份原配置及总包，覆盖14个国家和地区、6种协议。公开来源快照采于14至15日；16日对94份去重原配置做双端测试，56份通过请求、下载和双来源地区核验，其中27份未设置跳过代理证书校验。入选20份在08:27:23至08:28:57再次完成双端各10次真实HTTPS请求、固定下载与双来源地区核验，20份通过。短时结果不保证当前或长期可用；海豚与目标客户端实机导入未做。
+- [4号原29条](https://jiedianshouce.com/free-nodes/2026-11-04/)于16日08:19至08:22复查，21条通过请求与下载，编号01、02、05、06、08、21、24、29未过；地区本轮未重核，旧总包仍含失败配置。机场16个公开入口13个200、3个403；榜单、枫叶位置、商业字段与85折入口未改。
+- 首页、文章库、专题、搜索、RSS、sitemap与每日记录同步。49个发布文件线上200且哈希与冻结包一致，39组线上移动/桌面检查通过，机场两页与发布前字节相同。Search Console 最近可核对完整7日仍截至11月4日（268展示、7点击）；10月23日索引报告为67已编入、29未编入，不据此声称16号新页已收录。11月23日至30日按目标查询与页面复查。
+
 ## 2026-11-14
 
 - 新增[Hiddify Windows VPN/TUN `HiddifyCli.exe` 提权报错排查](https://jiedianshouce.com/articles/hiddify-windows-tun-hiddifycli-elevation-required/)：限定官方 Issue 个案的事实边界，提供判断表、可回退步骤、限制、5个FAQ及自然内链。深修[Clash Verge Rev TUN断网页](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/)，补同设备、同网络和同节点的路由前后对照；旧文URL、标题、H1和canonical不变。
