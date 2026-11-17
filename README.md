@@ -6,11 +6,11 @@
 
 ## 最新更新
 
-**2026-11-16**
+**2026-11-17**
 
-- 新增[Clash Verge Rev `fake-ip-filter invalid domain` 排查](https://jiedianshouce.com/articles/clash-verge-rev-fake-ip-filter-invalid-domain/)，深修系统代理断网页。
-- [16号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-16/)发布20条、覆盖14个国家和地区；最终双出口复测只代表16日08:27至08:28的测试时刻。
-- 4号旧批次29条于16日复查21条通过请求与下载、8条未过，地区未重核。较新的Search Console报告尚未取得，不声称本批已获收录或流量增长。
+- 新增[v2rayN Ubuntu 22.04 `e_sqlite3` 故障排查](https://jiedianshouce.com/articles/v2rayn-ubuntu-2204-e-sqlite3-glibc-abi-dt-relr/)，深修通用 Core 启动失败旧文。
+- [17号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-17/)发布30条、覆盖11个国家和地区；上线前替换5份未过最终复测的配置。短时测试不保证长期可用。
+- 16号、4号旧批次分别13/20、22/29通过17日双端请求和下载复查，地区未重核。17号新页的Google收录与展示仍未知。
 - GitHub 只同步公开方法、数量、变更和验收规则，不存放节点配置、服务器地址、私人订阅或未脱敏日志。
 
 完整变更见 [CHANGELOG.md](CHANGELOG.md)，页面与主题对应关系见 [KEYWORD-MAP.md](KEYWORD-MAP.md)。

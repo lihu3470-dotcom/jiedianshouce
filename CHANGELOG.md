@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-17
+
+- 新增[v2rayN Ubuntu 22.04 `e_sqlite3` 与 `GLIBC_ABI_DT_RELR` 排查](https://jiedianshouce.com/articles/v2rayn-ubuntu-2204-e-sqlite3-glibc-abi-dt-relr/)：依据官方问题 #10565、#9895 与安装包说明，区分应用初始化、Core 启动和代理请求阶段；保留官方 Ubuntu 22.04+ 安装说明与维护者针对个案建议 Ubuntu 24+ 的差异。深修[通用 Core 启动失败旧文](https://jiedianshouce.com/articles/v2rayn-core-start-failed/)，补阶段分流、证据要求与来源边界，旧文主意图不变。三篇英文文章的失效内链改为现有中文文章并标明语言。
+- [17号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-17/)上线30份单节点 YAML 与总包，覆盖11个国家和地区、5种协议。14个公开来源地址采集，跨3095个历史端点去重后有1930条新候选；169条完成双公网出口各10次真实 HTTPS 请求及固定下载，60条做双来源地区核验。上线前剔除请求未达门槛的671、700、706、760及地区冲突的708，换入复测通过的669、018、005、022、013。最终30份在北京时间11:33:22至11:38:25完成双端请求、下载与地区核验；短时结果不保证当前或长期可用，未做目标客户端实机导入或海豚测速。
+- 17日复查[16号原20条](https://jiedianshouce.com/free-nodes/2026-11-16/)为13条通过双端请求与下载、7条未过；[4号原29条](https://jiedianshouce.com/free-nodes/2026-11-04/)为22条通过、7条未过。两批地区未重核，旧总包仍含未过配置，页面已分别标注。本轮请求失败率不称丢包率。
+- 机场16个公开入口13个 HTTP 200、3个403；缺少可核对的新结算及退款条款，15张卡片、枫叶位置、商业字段、85折入口和机场页面字节均未改。F190 最终独立审查 PASS、0项必改；62个发布文件线上 HTTP 200 且哈希一致，48组移动/桌面检查无问题。Search Console 最新完整日11月14日为30展示、2点击；11月8至14日为229展示、15点击、CTR 6.6%、平均排名10.5；11月13日索引报告为150已编入、396未编入，其中多数未编入示例是下载文件。新页索引与展示未知，11月24日和12月1日复查。
+
 ## 2026-11-16
 
 - 新增[Clash Verge Rev `fake-ip-filter invalid domain` 排查](https://jiedianshouce.com/articles/clash-verge-rev-fake-ip-filter-invalid-domain/)：依据官方问题 #8462、Mihomo 问题 #3116 与官方通配符语法说明，限定为配置加载阶段的精确报错；含判断表、可回退步骤、限制、5个FAQ和自然内链。深修[系统代理开启后无法上网](https://jiedianshouce.com/articles/clash-verge-rev-system-proxy-no-internet/)，补配置校验后到实际流量接管的分层诊断及来源边界。

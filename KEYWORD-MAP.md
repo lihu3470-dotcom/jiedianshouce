@@ -7,6 +7,7 @@
 | 主题 | 主要搜索意图 | 主页面 |
 | --- | --- | --- |
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
+| 2026-11-17 免费节点批次 | 17号30份配置的双出口短时测试、5份上线前替换与原始证据；日期页不替代固定入口 | [17号测试记录](https://jiedianshouce.com/free-nodes/2026-11-17/) |
 | 2026-11-16 免费节点批次 | 16号20份原配置的双端请求、固定下载、地区来源与历史时效；日期证据页不替代固定入口 | [16号测试记录](https://jiedianshouce.com/free-nodes/2026-11-16/) |
 | 免费节点历史 | 日期、数量、地区、丢包和测速证据 | [历史归档](https://jiedianshouce.com/free-nodes/archive/) |
 | 机场推荐 | 价格、流量、倍率、周期与公开证据 | [机场评级](https://jiedianshouce.com/airports/) |
@@ -40,6 +41,7 @@
 | sing-box Linux TUN 自动重定向规则报错 | 启用 `auto_redirect` 后，安装 nftables 规则明确报 `operation not supported`；区别于远程规则集和普通节点断网 | [sing-box nftables 报错排查](https://jiedianshouce.com/articles/sing-box-auto-redirect-nftables-operation-not-supported/) |
 | v2rayN精确报错 | ArgumentOutOfRange_Count、订阅成功但节点列表为空 | [v2rayN节点列表为空排查](https://jiedianshouce.com/articles/v2rayn-argumentoutofrange-count-subscription-empty/) |
 | v2rayN内核启动故障 | 运行Core失败、内核进程无法启动 | [v2rayN运行Core失败排查](https://jiedianshouce.com/articles/v2rayn-core-start-failed/) |
+| v2rayN Ubuntu 22.04 应用初始化 `e_sqlite3` 故障 | 窗口出现前的 SQLite 原生库与 `GLIBC_ABI_DT_RELR` 错误；应用已打开后的 Core 故障仍由旧页承接 | [Ubuntu 22.04 应用初始化故障排查](https://jiedianshouce.com/articles/v2rayn-ubuntu-2204-e-sqlite3-glibc-abi-dt-relr/) |
 | v2rayN macOS TUN跨核心切换端口占用 | 开启TUN期间从sing-box切到Xray后出现 `address already in use`，先核对实际监听端口和进程；一般Core启动故障仍由上页承接 | [v2rayN macOS端口占用排查](https://jiedianshouce.com/articles/v2rayn-macos-tun-core-switch-port-in-use/) |
 | v2rayN Geo 文件精确故障 | Xray 启动日志明确显示 geosite.dat 缺失或 EOF；一般 Core 启动失败仍由上页承接 | [v2rayN geosite.dat 排查](https://jiedianshouce.com/articles/v2rayn-geosite-dat-missing/) |
 | 2026-11-05 免费节点批次 | 当批公开来源、独立双端测试、下载与证据 | [11月5日测试记录](https://jiedianshouce.com/free-nodes/2026-11-05/) |
@@ -61,6 +63,7 @@
 
 ## 维护原则
 
+- 2026-11-17日更：Ubuntu 22.04 `e_sqlite3` 精确故障由新页承接，Core 已启动阶段继续由原页承接；17号30条进入日期页，固定免费节点入口保持原意图。16号与4号旧批次分别13/20、22/29通过17日双端请求与下载复查，地区未重核。机场榜与枫叶页面字节不变。GSC最近完整7日截至11月14日为229展示、15点击；17号新页索引与展示未知，11月24日及12月1日复查。
 - 2026-11-13日更：sing-box `auto_redirect` 安装 nftables 规则失败由新专项承接，Clash Verge Rev 系统代理断网页保留原主题并补显式本地端口对照。13号20条节点进入日期页与固定入口；4号旧批次21/29、12号旧批次11/15通过13号双端请求与下载复查，地区未重核。机场评级与枫叶展示未改。GSC可核对完整7日仍截至11月4日，新页索引与排名未知，约11月20日至27日复查。
 - 2026-11-12日更：v2rayNG `allowInsecure has been removed` 明确配置加载错误由新专项承接，已连接但无法上网旧文仅补启动前分流并保留原意图。12号15条节点进入日期页与固定入口；4号旧批次22/29通过双端请求与下载，7条未过，地区未重核。11号29条原YAML保持不变，新增sing-box JSON和10条VLESS/SS链接，但目标客户端实机导入与连接未验证。机场评级与枫叶展示未改。GSC可用完整7日仍截至11月4日，12号新页索引与排名未知，约11月19日至26日复查。
 - 2026-11-11日更：Hiddify `tunnel-per-resolver` 明确字段错误由新专项页承接，更新后无节点旧文补解析阶段分流；订阅总排查页保留通用入口。11号29条节点进入日期页与固定入口，15条跳过代理证书校验的配置已标明，优先与总包选择顺序为03、23。10号、9号、4号旧批次逐条显示11号复查结果。机场页面及枫叶位置、价格、85折展示未改。最新可核对GSC完整7日仍截至11月4日，11号新页索引与排名未知；11月18日至25日按查询与页面复查。
