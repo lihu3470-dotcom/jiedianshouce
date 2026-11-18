@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-19
+
+- 新增[Hiddify macOS `duplicate column name: profile_override` 排查](https://jiedianshouce.com/articles/hiddify-macos-duplicate-column-profile-override/)，依据Hiddify官方Issue #2078与SQLite官方文档，把本地数据库迁移错误与普通订阅失败分开；先保留数据并只读核对，不宣称通用修复。深修[Clash Verge Rev TUN旧文](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/)，加入macOS服务IPC启动分支，并将官方 #8488 单一个案与Windows #8474分开。
+- [19号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-19/)上线22份单节点YAML、总包和固定订阅 `latest.yaml`，覆盖12个国家或地区、5种协议、5个公开来源。14个公开来源跨历史端点去重后803条候选，74条预筛通过，68条在两个独立公网出口各做10次真实HTTPS代理请求与262144字节固定下载；发布前25份两端请求与下载通过，24份取得出口IP，最终22份两家地区来源一致。原30份预览保留16份、退出14份、换入6份；测试窗口北京时间01:47:21至01:57:05，地区复核完成于01:58:16。短测不保证此刻或长期可用，未做海豚测速或目标客户端实机导入。
+- 18号原30份复测22份完整通过、8份未过；4号原29份22份请求与下载通过、7份未过，17号原30份26份请求与下载通过、4份未过，后两批地区未重核，原历史包仍含未过配置。11号历史总包入口补15份关闭代理证书校验的风险说明，10月部分缺原始记录的旧测试断言收窄。机场公开入口16个中13个200、3个403；机场页面未进入本批发布包，商业断言缺证据仍待逐项核实。
+- 上线前合并了当前生产的固定订阅、首页及新增页面改动，修复`/download/`一处404内链，sitemap移除canonical指向21号的10月22日非规范页。58个发布文件在线HTTP 200且哈希与发布包一致；185条sitemap记录、RSS、搜索、22份下载及48组线上移动/桌面检查通过。Search Console只读API于11月19日01:07返回401；最近完整日仍是11月15日24展示、0点击，11月9日至15日228展示、13点击，索引报告截至11月13日150已编入、396未编入。19号新页索引与展示未知；11月26日及12月3日复看。F190此前因机场既有商业断言证据冲突拒绝整批预览，该缺口没有因本次发布而消失。
+
 ## 2026-11-18
 
 - 新增[Clash Verge Rev Windows 更新 Mihomo 报 `os error 32` 排查](https://jiedianshouce.com/articles/clash-verge-rev-windows-mihomo-upgrade-os-error-32/)：依据官方 #8672 用户个案、v2.5.10 源码和 Microsoft 文件共享模式说明分辨内核文件发布、服务安装与 TUN 故障。#8672 未被当作普遍故障。深修[免费节点不能用了](https://jiedianshouce.com/articles/free-node-not-working/)，补来源获取、格式解析、真实代理请求、固定下载与地区核验的分流；保留旧页主意图与受保护元数据。
