@@ -7,7 +7,9 @@
 | 主题 | 主要搜索意图 | 主页面 |
 | --- | --- | --- |
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
+| 2026-11-18 免费节点批次 | 18号30份原配置的双出口请求、固定下载、两家地区来源与11进11出发布前复测；日期证据页不替代固定入口 | [18号测试记录](https://jiedianshouce.com/free-nodes/2026-11-18/) |
 | 2026-11-17 免费节点批次 | 17号30份配置的双出口短时测试、5份上线前替换与原始证据；日期页不替代固定入口 | [17号测试记录](https://jiedianshouce.com/free-nodes/2026-11-17/) |
+| 节点抓取失效、免费节点不能用了 | 来源获取、解析、代理请求、固定下载及地区核验分流；`节点抓取失效`近28日23展示、0点击、平均排名2.2，近7日该查询0展示 | [免费节点失效排查](https://jiedianshouce.com/articles/free-node-not-working/) |
 | 2026-11-16 免费节点批次 | 16号20份原配置的双端请求、固定下载、地区来源与历史时效；日期证据页不替代固定入口 | [16号测试记录](https://jiedianshouce.com/free-nodes/2026-11-16/) |
 | 免费节点历史 | 日期、数量、地区、丢包和测速证据 | [历史归档](https://jiedianshouce.com/free-nodes/archive/) |
 | 机场推荐 | 价格、流量、倍率、周期与公开证据 | [机场评级](https://jiedianshouce.com/airports/) |
@@ -23,6 +25,7 @@
 | 线路测试 | CN2、BGP、中转、直连、晚高峰、低延迟 | [晚高峰测试](https://jiedianshouce.com/articles/peak-hour-airport-test/) |
 | 客户端导入 | Clash、Clash Verge、v2rayN 与订阅导入 | [客户端选择与导入](https://jiedianshouce.com/articles/clash-v2rayn-subscription-import/) |
 | Clash Verge Rev 故障 | 无法选择配置、Socket错误、内核启动和端口占用 | [Clash Verge Rev Socket错误排查](https://jiedianshouce.com/articles/clash-verge-rev-cannot-select-profile-socket-error/) |
+| Clash Verge Rev Windows Mihomo 升级报 `os error 32` | 更新内核暂存文件发布失败时，依据日志区分旧内核恢复、文件占用与服务/TUN故障；新页收录和展示未知 | [Windows 内核发布错误32排查](https://jiedianshouce.com/articles/clash-verge-rev-windows-mihomo-upgrade-os-error-32/) |
 | Clash Verge Rev 系统 DNS 报错 | set system dns failed、exit code 1、系统代理开启失败 | [系统 DNS 写入失败排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/) |
 | Clash Verge Rev `dns.fake-ip-filter invalid domain` | Mihomo 加载配置时域名通配符校验失败；YAML解析错误与启动后系统代理断网分别由原有页面承接 | [Fake IP 过滤项语法排查](https://jiedianshouce.com/articles/clash-verge-rev-fake-ip-filter-invalid-domain/) |
 | Clash Verge Rev TUN接管后断网 | 同节点系统代理可用、仅TUN接管失败时排查服务、接口、路由与DNS | [TUN无法上网排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
