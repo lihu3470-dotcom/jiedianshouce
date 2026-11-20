@@ -7,6 +7,7 @@
 | 主题 | 主要搜索意图 | 主页面 |
 | --- | --- | --- |
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
+| 2026-11-20 免费节点批次 | 20号30份配置的双出口真实请求、固定下载、双来源出口地区和上线前4退4入；日期证据页不替代固定入口 | [20号测试记录](https://jiedianshouce.com/free-nodes/2026-11-20/) |
 | 2026-11-19 免费节点批次 | 19号22份配置的双出口HTTPS请求、固定下载、两家地区来源与14退6入的发布前复测；日期证据页不替代固定入口 | [19号测试记录](https://jiedianshouce.com/free-nodes/2026-11-19/) |
 | 2026-11-18 免费节点批次 | 18号30份原配置的双出口请求、固定下载、两家地区来源与11进11出发布前复测；日期证据页不替代固定入口 | [18号测试记录](https://jiedianshouce.com/free-nodes/2026-11-18/) |
 | 2026-11-17 免费节点批次 | 17号30份配置的双出口短时测试、5份上线前替换与原始证据；日期页不替代固定入口 | [17号测试记录](https://jiedianshouce.com/free-nodes/2026-11-17/) |
@@ -29,6 +30,7 @@
 | Clash Verge Rev Windows Mihomo 升级报 `os error 32` | 更新内核暂存文件发布失败时，依据日志区分旧内核恢复、文件占用与服务/TUN故障；新页收录和展示未知 | [Windows 内核发布错误32排查](https://jiedianshouce.com/articles/clash-verge-rev-windows-mihomo-upgrade-os-error-32/) |
 | Hiddify macOS `duplicate column name: profile_override` | 本地SQLite迁移报错的证据保留与只读核对；普通订阅HTTP/解析失败和节点空列表由各自旧页承接，GSC当期查询与索引未知 | [Hiddify macOS 数据库迁移报错排查](https://jiedianshouce.com/articles/hiddify-macos-duplicate-column-profile-override/) |
 | Clash Verge Rev TUN macOS服务IPC启动错误 | TUN接口尚未建立前的服务启动失败；已建立后的路由和DNS断网继续由同一旧页分流。旧页11月9日至15日22展示、0点击，精确查询未知 | [Clash Verge Rev TUN排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
+| Clash Verge Rev TUN 回环日志精确故障 | Windows TUN已建立、关闭TUN同一显式代理请求可用、开启后全部节点全红且日志含 `reject loopback connection`；索引与精确查询展示未知 | [回环日志专项](https://jiedianshouce.com/articles/clash-verge-rev-tun-reject-loopback-all-nodes-error/) |
 | Clash Verge Rev 系统 DNS 报错 | set system dns failed、exit code 1、系统代理开启失败 | [系统 DNS 写入失败排查](https://jiedianshouce.com/articles/clash-verge-rev-set-system-dns-failed-exit-code-1/) |
 | Clash Verge Rev `dns.fake-ip-filter invalid domain` | Mihomo 加载配置时域名通配符校验失败；YAML解析错误与启动后系统代理断网分别由原有页面承接 | [Fake IP 过滤项语法排查](https://jiedianshouce.com/articles/clash-verge-rev-fake-ip-filter-invalid-domain/) |
 | Clash Verge Rev TUN接管后断网 | 同节点系统代理可用、仅TUN接管失败时排查服务、接口、路由与DNS | [TUN无法上网排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
