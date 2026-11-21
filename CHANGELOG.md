@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-22
+
+- 上线 [Clash Verge Rev 订阅 UnknownIssuer 证书错误排查](https://jiedianshouce.com/articles/clash-verge-rev-subscription-invalid-peer-certificate-unknownissuer/)；依据官方 #8198 单个 macOS 用户报告与导入文档，区分证书验证、URL 输入、HTTP 响应和更新后无节点。未将个案推广为通用缺陷。深修[订阅更新失败总排查](https://jiedianshouce.com/articles/subscription-update-errors/)，补证书错误分流，并收窄缺原始来源的版本及系统服务断言。
+- [22号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-22/)上线30份，覆盖16个出口地区：773个跨历史去重候选，105份真实代理预筛通过，首轮76份双出口请求与下载通过，55份双来源地区核验通过；最终55份复测中43份完整达标。入选配置上线前再次经两台不同公网出口各10次HTTPS请求与固定下载复测，30份通过；其中一份替换项为单独复测。请求与下载、地区核验、上线前复测分别标注时间，短测不保证长期可用。
+- 22日历史复查：4号原29份中22份、21号原30份中16份通过双出口请求与下载；地区未重核，历史总包仍包含失败项。失败状态已标在对应日期页和下载旁。机场16个公开入口为13个200、3个403；榜单15家卡片、枫叶位置、价格、评级和85折入口均未改，商业字段仍待逐项原文核验。
+- Search Console最近完整7日为11月13日至19日：318展示、6点击、CTR 1.9%、平均排名10.2；索引报告截至11月16日为168已编入、444未编入，含下载等非文章URL。22号新页的索引与展示未知，11月29日和12月6日复看。线上54个变更文件均200且哈希一致，30份单文件、总包、证据、RSS、sitemap及48组响应式检查通过。F190完成独立审查，但其自行生成的替代稿因与提交HTML哈希不符而被拒绝；该替代稿未发布，实际发布文件由Codex逐项复核。
+
 ## 2026-11-21
 
 - 上线[Clash Verge Rev 订阅链接无效专项](https://jiedianshouce.com/articles/clash-verge-rev-invalid-subscription-url-http-https/)：按官方问题单 #8683、#8684 与导入文档区分即时 URL 提示、远程订阅入口、本地 YAML、联网错误和解析阶段。问题单没有通用根因或修复版本，本站未实机复现客户端逐字提示；[原导入指南](https://jiedianshouce.com/articles/free-nodes-import-clash-verge-rev/)压缩重复意图并修正无依据的版本、文件同步、404 与延迟判断。

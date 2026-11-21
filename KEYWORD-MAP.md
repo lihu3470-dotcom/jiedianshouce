@@ -7,6 +7,7 @@
 | 主题 | 主要搜索意图 | 主页面 |
 | --- | --- | --- |
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
+| 2026-11-22 免费节点批次 | 22号30份配置的双出口请求、固定下载、双来源地区与上线前复测；日期证据页不替代固定入口 | [22号测试记录](https://jiedianshouce.com/free-nodes/2026-11-22/) |
 | 2026-11-21 免费节点批次 | 21号30份配置的双出口请求、固定下载、双来源地区与历史批次复查；日期证据页不替代固定入口 | [21号测试记录](https://jiedianshouce.com/free-nodes/2026-11-21/) |
 | 2026-11-20 免费节点批次 | 20号30份配置的双出口真实请求、固定下载、双来源出口地区和上线前4退4入；日期证据页不替代固定入口 | [20号测试记录](https://jiedianshouce.com/free-nodes/2026-11-20/) |
 | 2026-11-19 免费节点批次 | 19号22份配置的双出口HTTPS请求、固定下载、两家地区来源与14退6入的发布前复测；日期证据页不替代固定入口 | [19号测试记录](https://jiedianshouce.com/free-nodes/2026-11-19/) |
@@ -37,6 +38,7 @@
 | Clash Verge Rev TUN接管后断网 | 同节点系统代理可用、仅TUN接管失败时排查服务、接口、路由与DNS | [TUN无法上网排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
 | Clash Verge Rev 服务内核首次 IPC 超时但重试成功 | Windows 服务模式首次启动告警后已恢复，按最终状态、实际请求和日志时间线判断；持续安装失败或TUN断网回到各自旧页 | [服务内核 IPC 重试判断](https://jiedianshouce.com/articles/clash-verge-rev-service-core-ipc-timeout-retry/) |
 | 订阅更新失败 | HTTP错误、空内容、格式不兼容与缓存问题 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |
+| Clash Verge Rev 订阅 UnknownIssuer | 远程订阅拉取进入TLS验证后出现 `invalid peer certificate: UnknownIssuer`；URL输入失败和更新后无节点仍由各自页面承接，精确查询展示与索引未知 | [UnknownIssuer 证书错误排查](https://jiedianshouce.com/articles/clash-verge-rev-subscription-invalid-peer-certificate-unknownissuer/) |
 | Clash Verge Rev 即时订阅 URL 无效提示 | 点击导入后立即要求 http 或 https 开头，尚未进入联网、下载或配置解析；问题单没有通用根因 | [订阅链接无效专项](https://jiedianshouce.com/articles/clash-verge-rev-invalid-subscription-url-http-https/) |
 | Clash Verge Rev 免费节点完整导入 | 远程或本地配置的导入、激活、节点选择与连接验证；即时 URL 提示转向专项页 | [免费节点导入指南](https://jiedianshouce.com/articles/free-nodes-import-clash-verge-rev/) |
 | v2rayN 已取得订阅却提示 Failed to import subscription content | HTTP 内容已取回后，核对 gzip 响应与导入解析阶段；不替代通用订阅导入或更新后列表为空的排查 | [v2rayN gzip 导入失败专项](https://jiedianshouce.com/articles/v2rayn-subscription-gzip-import-failed/) |
