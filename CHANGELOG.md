@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-23
+
+- 上线[Clash Verge Rev Linux 端口保存报 `missingcommand gsettings` 排查](https://jiedianshouce.com/articles/clash-verge-rev-linux-change-port-missingcommand-gsettings/)：依据官方 #8707 单个 Ubuntu 26.04 报告，区分保存端口、回滚和系统代理状态；未把个案写成通用根因。深修[Hiddify Linux TUN `exit status 127` 旧文](https://jiedianshouce.com/articles/hiddify-linux-tun-exit-status-127/)，按版本、安装来源、授权和第一条错误分流；官方 #2411 已关闭，但后续 5.5.5 `.deb` 个案不支持声称全部版本已修复。
+- [23号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-23/)上线30份、15地区。23日重新抓取696个跨历史去重候选，71份通过真实代理预筛、63份完成首轮双端测试、44份请求下载通过、37份双来源地区核验通过。原选30份发布前复测只有24份合格；024、028、037、049、050、053退出，003、027、049（不同配置）、070、072、073换入。最终30份于北京时间03:02:59至03:11:34经本机与VPS各10次HTTPS代理请求和固定262144字节下载，均达到每端至少9次且下载成功；本轮出口IP哈希与11月22或23日两家地区来源记录一致。乌克兰退出、墨西哥加入，地区总数仍15；短测不保证随后可用，未做海豚测速或目标客户端实机导入。
+- 23日复查22号原30份中20份、4号原29份中19份通过双端请求与下载；4号另有7份实测未过、3份VPS测试未完成，22号另有10份实测未过。历史地区未重核，旧总包未改。机场16个公开入口13个200、3个403，榜单15家卡片、枫叶位置、价格评级和85折展示未改。
+- 线上57个发布文件均200且与包哈希一致，30份单文件、总包、固定订阅及证据可访问；上线后更新记录追加验收结果并再次验明200及哈希。27组线上320/390/1366像素检查无问题，197条sitemap URL无重复，关键页无断链。Search Console直连跳登录页；最近可用完整7日仍为11月13至19日318展示、6点击，23号新页索引与展示未知。F190审查员拒绝了writer另行生成的未落盘替换稿；其有效事实问题已修入实际发布文件，不能宣称F190通过。
+
 ## 2026-11-22
 
 - 上线 [Clash Verge Rev 订阅 UnknownIssuer 证书错误排查](https://jiedianshouce.com/articles/clash-verge-rev-subscription-invalid-peer-certificate-unknownissuer/)；依据官方 #8198 单个 macOS 用户报告与导入文档，区分证书验证、URL 输入、HTTP 响应和更新后无节点。未将个案推广为通用缺陷。深修[订阅更新失败总排查](https://jiedianshouce.com/articles/subscription-update-errors/)，补证书错误分流，并收窄缺原始来源的版本及系统服务断言。

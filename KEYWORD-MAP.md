@@ -7,6 +7,7 @@
 | 主题 | 主要搜索意图 | 主页面 |
 | --- | --- | --- |
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
+| 2026-11-23 免费节点批次 | 23号30份配置的双出口短测、发布前6进6出及原始证据；日期页不替代固定入口 | [23号测试记录](https://jiedianshouce.com/free-nodes/2026-11-23/) |
 | 2026-11-22 免费节点批次 | 22号30份配置的双出口请求、固定下载、双来源地区与上线前复测；日期证据页不替代固定入口 | [22号测试记录](https://jiedianshouce.com/free-nodes/2026-11-22/) |
 | 2026-11-21 免费节点批次 | 21号30份配置的双出口请求、固定下载、双来源地区与历史批次复查；日期证据页不替代固定入口 | [21号测试记录](https://jiedianshouce.com/free-nodes/2026-11-21/) |
 | 2026-11-20 免费节点批次 | 20号30份配置的双出口真实请求、固定下载、双来源出口地区和上线前4退4入；日期证据页不替代固定入口 | [20号测试记录](https://jiedianshouce.com/free-nodes/2026-11-20/) |
@@ -29,6 +30,7 @@
 | 线路测试 | CN2、BGP、中转、直连、晚高峰、低延迟 | [晚高峰测试](https://jiedianshouce.com/articles/peak-hour-airport-test/) |
 | 客户端导入 | Clash、Clash Verge、v2rayN 与订阅导入 | [客户端选择与导入](https://jiedianshouce.com/articles/clash-v2rayn-subscription-import/) |
 | Clash Verge Rev 故障 | 无法选择配置、Socket错误、内核启动和端口占用 | [Clash Verge Rev Socket错误排查](https://jiedianshouce.com/articles/clash-verge-rev-cannot-select-profile-socket-error/) |
+| Clash Verge Rev Linux 改端口报 `missingcommand gsettings` | 保存和回滚代理端口失败时核对命令可见性与系统代理状态；端口已保存但断网仍由系统代理旧文承接。23号新页索引与展示未知 | [Linux 端口保存报错排查](https://jiedianshouce.com/articles/clash-verge-rev-linux-change-port-missingcommand-gsettings/) |
 | Clash Verge Rev Windows Mihomo 升级报 `os error 32` | 更新内核暂存文件发布失败时，依据日志区分旧内核恢复、文件占用与服务/TUN故障；新页收录和展示未知 | [Windows 内核发布错误32排查](https://jiedianshouce.com/articles/clash-verge-rev-windows-mihomo-upgrade-os-error-32/) |
 | Hiddify macOS `duplicate column name: profile_override` | 本地SQLite迁移报错的证据保留与只读核对；普通订阅HTTP/解析失败和节点空列表由各自旧页承接，GSC当期查询与索引未知 | [Hiddify macOS 数据库迁移报错排查](https://jiedianshouce.com/articles/hiddify-macos-duplicate-column-profile-override/) |
 | Clash Verge Rev TUN macOS服务IPC启动错误 | TUN接口尚未建立前的服务启动失败；已建立后的路由和DNS断网继续由同一旧页分流。旧页11月9日至15日22展示、0点击，精确查询未知 | [Clash Verge Rev TUN排查](https://jiedianshouce.com/articles/clash-verge-rev-tun-not-working/) |
@@ -47,7 +49,7 @@
 | Hiddify 订阅后无节点 | 订阅获取、解析、保存与配置选择，不承接 WARP 前缀错误 | [Hiddify 订阅无节点排查](https://jiedianshouce.com/articles/hiddify-subscription-updated-no-nodes/) |
 | Hiddify 导入时明确报 tunnel-per-resolver unknown field | 配置已取得，但在 SingboxParser 字段解析阶段失败；不与更新后列表为空或 WARP 故障混用 | [Hiddify 字段解析报错排查](https://jiedianshouce.com/articles/hiddify-tunnel-per-resolver-unknown-field/) |
 | v2rayNG 明确报 allowInsecure has been removed | 核心加载 TLS 配置时旧字段被拒；区别于已连接后网页打不开、证书握手错误或单纯延迟 -1 | [v2rayNG TLS 旧字段排查](https://jiedianshouce.com/articles/v2rayng-allowinsecure-removed-tls-config/) |
-| Hiddify Linux TUN 启动精确故障 | 授权后 `Bad state: exit status 127`、帮助进程或共享库加载阶段；区别于订阅为空和一般安装 | [Hiddify Linux 127 错误排查](https://jiedianshouce.com/articles/hiddify-linux-tun-exit-status-127/) |
+| Hiddify Linux TUN 启动精确故障 | 授权后 `Bad state: exit status 127`，按版本、安装来源和首条库错误分流；11月13至19日页面29展示、0点击，对应查询和排名未知 | [Hiddify Linux 127 错误排查](https://jiedianshouce.com/articles/hiddify-linux-tun-exit-status-127/) |
 | Hiddify Windows VPN/TUN `HiddifyCli.exe` 提权报错 | Windows连接时启动进程明确报 `The requested operation requires elevation`；区别于Linux 127、订阅为空和其他客户端TUN断网 | [Hiddify Windows提权错误排查](https://jiedianshouce.com/articles/hiddify-windows-tun-hiddifycli-elevation-required/) |
 | Hiddify 常规使用 | 安装、导入、连接及 WARP 与普通订阅分流 | [Hiddify 完整教程](https://jiedianshouce.com/tools/hiddify/) |
 | sing-box 远程规则集冷启动故障 | 核心 `route.rule_set` 远程文件在无缓存启动时下载或解析失败；区别于客户端订阅更新 | [sing-box 远程规则集启动失败排查](https://jiedianshouce.com/articles/sing-box-remote-rule-set-startup-failed/) |
