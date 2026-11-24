@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-24
+
+- 上线 [Clash Verge Rev Fedora 45 界面显示不全排查](https://jiedianshouce.com/articles/clash-verge-rev-fedora-gui-incomplete/)：依据官方 #8716 单个开放报告区分窗口显示、配置验证与内核启动日志，不推断通用根因或已修复版本。深修 [Linux 改端口报 `missingcommand gsettings`](https://jiedianshouce.com/articles/clash-verge-rev-linux-change-port-missingcommand-gsettings/) 旧文，补清理与回滚路径，注明 PR #8717 尚未合并。
+- [24号免费节点记录](https://jiedianshouce.com/free-nodes/2026-11-24/)上线30份、13地区。825个跨历史去重候选中101份通过单次真实代理请求预筛，97份完成首轮双出口完整测试，72份通过请求与下载，62份通过两家地区来源核验。发布前原选30份中23份复测合格；089、033、008、062、088、019、085退出，078、007、025、030、071、006、096换入。最终每份两端各至少9/10次HTTPS请求成功，262144字节固定下载均成功；地区证据与请求复测时间在日期页分开记录。短测不保证此刻或长期可用，未做海豚测速及目标客户端实机导入。
+- 24日复查23号历史包19/30、4号历史包21/29通过双端请求与固定下载；历史地区未重核，原总包仍含未过配置。机场16个公开入口13个200、3个403，榜单15家卡片、枫叶位置及商业展示未由本次发布改动。Search Console 直连无法取得授权报表，最近可用完整7日仍为11月13至19日318展示、6点击；24号新页索引与展示未知。
+- 合并线上已有英文指南和其他文章入口后部署53个文件；53份文件均返回200且哈希与合并包一致，30份节点单文件、总包、固定订阅及证据通过线上核对，sitemap为220条且无重复。机场页整页哈希与凌晨记录不同，但不在发布包内；标题、H1、canonical、15张卡片和枫叶位置核对一致。F190对未落盘的替代稿给出REJECT，不能称其通过；实际发布文件按来源、节点证据、元数据和在线验收复核。
+
 ## 2026-11-23
 
 - 上线[Clash Verge Rev Linux 端口保存报 `missingcommand gsettings` 排查](https://jiedianshouce.com/articles/clash-verge-rev-linux-change-port-missingcommand-gsettings/)：依据官方 #8707 单个 Ubuntu 26.04 报告，区分保存端口、回滚和系统代理状态；未把个案写成通用根因。深修[Hiddify Linux TUN `exit status 127` 旧文](https://jiedianshouce.com/articles/hiddify-linux-tun-exit-status-127/)，按版本、安装来源、授权和第一条错误分流；官方 #2411 已关闭，但后续 5.5.5 `.deb` 个案不支持声称全部版本已修复。

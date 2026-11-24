@@ -7,6 +7,7 @@
 | 主题 | 主要搜索意图 | 主页面 |
 | --- | --- | --- |
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
+| 2026-11-24 免费节点批次 | 24号30份配置、发布前7退7进的双端短测与地区证据；日期页不替代固定入口 | [24号测试记录](https://jiedianshouce.com/free-nodes/2026-11-24/) |
 | 2026-11-23 免费节点批次 | 23号30份配置的双出口短测、发布前6进6出及原始证据；日期页不替代固定入口 | [23号测试记录](https://jiedianshouce.com/free-nodes/2026-11-23/) |
 | 2026-11-22 免费节点批次 | 22号30份配置的双出口请求、固定下载、双来源地区与上线前复测；日期证据页不替代固定入口 | [22号测试记录](https://jiedianshouce.com/free-nodes/2026-11-22/) |
 | 2026-11-21 免费节点批次 | 21号30份配置的双出口请求、固定下载、双来源地区与历史批次复查；日期证据页不替代固定入口 | [21号测试记录](https://jiedianshouce.com/free-nodes/2026-11-21/) |
@@ -18,6 +19,8 @@
 | 2026-11-16 免费节点批次 | 16号20份原配置的双端请求、固定下载、地区来源与历史时效；日期证据页不替代固定入口 | [16号测试记录](https://jiedianshouce.com/free-nodes/2026-11-16/) |
 | 免费节点历史 | 日期、数量、地区、丢包和测速证据 | [历史归档](https://jiedianshouce.com/free-nodes/archive/) |
 | 机场推荐 | 价格、流量、倍率、周期与公开证据 | [机场评级](https://jiedianshouce.com/airports/) |
+| Clash Verge Rev Fedora 45 安装后 GUI 显示不全 | 区分窗口显示、配置验证和内核启动；不承接 TUN 或系统代理故障 | [Fedora 界面故障排查](https://jiedianshouce.com/articles/clash-verge-rev-fedora-gui-incomplete/) |
+| Clash Verge Rev Linux 改端口 `missingcommand gsettings` | 端口保存、系统代理清理与回滚；PR #8717 未正式发布 | [Linux 端口故障排查](https://jiedianshouce.com/articles/clash-verge-rev-linux-change-port-missingcommand-gsettings/) |
 | 机场评级 | 品牌历史资料、评级口径与核验状态 | [机场评级](https://jiedianshouce.com/airports/) |
 | 枫叶机场 | 枫叶 Maple Relay 品牌评测、套餐记录与公开入口 | [枫叶机场完整评测](https://jiedianshouce.com/airports/maple-relay/) |
 | 机场选购方法 | 把最低付款额、倍率后流量、有效期和退款规则放到同一口径比较 | [机场推荐选购指南](https://jiedianshouce.com/articles/airport-recommendation-guide/) |
