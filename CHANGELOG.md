@@ -2,6 +2,12 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-25
+
+- 上线 [Clash Verge Rev Windows 切换订阅后持续转圈专项](https://jiedianshouce.com/articles/clash-verge-rev-windows-profile-switch-stuck-after-leaving-page/)：依据官方仓库开放问题单 #8730 的单例报告，按点击顺序、最终生效配置与日志分流；不宣称通用根因或正式修复。深修 [订阅卡片 socket 权限错误旧文](https://jiedianshouce.com/articles/clash-verge-rev-cannot-select-profile-socket-error/)，明确 HNS 步骤只对应特定错误原文。
+- 首页原有“21号节点”说明与“20号记录”链接不一致，已统一指向已发布的 [24号节点记录](https://jiedianshouce.com/free-nodes/2026-11-24/)并标明25日未复测。文章库、故障专题、主题导航、站内搜索、RSS、sitemap 和每日记录同步。25日没有新节点清单，没有修改下载、固定订阅或机场榜单。
+- 11个线上文件逐一 HTTP 200 且字节哈希与发布包一致；新文含5个FAQ，机场与节点受保护页面未进入发布包。F190审稿器拒绝了其 writer 生成的未落盘替代稿，不能称实际发布文件通过 F190；已按原始问题单、页面内容及在线文件独立核对。Search Console授权报表不可直接取得，25号新文收录与展示未知，计划12月2日、9日复看。
+
 ## 2026-11-24
 
 - 上线 [Clash Verge Rev Fedora 45 界面显示不全排查](https://jiedianshouce.com/articles/clash-verge-rev-fedora-gui-incomplete/)：依据官方 #8716 单个开放报告区分窗口显示、配置验证与内核启动日志，不推断通用根因或已修复版本。深修 [Linux 改端口报 `missingcommand gsettings`](https://jiedianshouce.com/articles/clash-verge-rev-linux-change-port-missingcommand-gsettings/) 旧文，补清理与回滚路径，注明 PR #8717 尚未合并。
