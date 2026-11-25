@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-26
+
+- 上线 [v2rayN Scoop `current` 路径下 Xray 配置报错专项](https://jiedianshouce.com/articles/v2rayn-scoop-current-xray-config-path-not-found/)：依据 v2rayN #10446、Xray #7239 和修复 PR #7255，限定版本、路径与日志组合。深修 [Core 启动失败总页](https://jiedianshouce.com/articles/v2rayn-core-start-failed/)，补路径分流及条件判断。发布后修正新文继承模板的面包屑、结构化数据和相关链接。
+- [26号免费节点批次](https://jiedianshouce.com/free-nodes/2026-11-26/)发布20份、15地区。1,061个跨历史去重候选中67份真实代理请求预筛通过；最终54份测试、31份完整通过，从中选20份。北京时间02:09:58至02:16:11按双出口各10次HTTPS请求、固定下载和两家地区来源核验；短测不保证此刻或长期可用，未做海豚或目标客户端实机导入。11月4日旧29份本次19份请求与下载通过、10份未过，地区未重核，逐条状态已补历史页。
+- 首页、节点总页和归档、文章库、故障专题、搜索、RSS、sitemap、固定订阅及每日记录同步。40个发布文件中28个为新文件；公开HTTPS逐文件哈希验收通过，日期页与固定订阅均为20份。机场15张卡片、枫叶位置及商业展示未进入发布包。F190 reviewer拒绝其writer生成的审计替代稿，不能称最终HTML获得独立PASS。
+- Search Console授权报表未取得；最近存档完整7日仍为11月13至19日318展示、6点击。26号新页收录、展示和精确查询未知，约12月3日及10日复看。
+
 ## 2026-11-25
 
 - 上线 [Clash Verge Rev Windows 切换订阅后持续转圈专项](https://jiedianshouce.com/articles/clash-verge-rev-windows-profile-switch-stuck-after-leaving-page/)：依据官方仓库开放问题单 #8730 的单例报告，按点击顺序、最终生效配置与日志分流；不宣称通用根因或正式修复。深修 [订阅卡片 socket 权限错误旧文](https://jiedianshouce.com/articles/clash-verge-rev-cannot-select-profile-socket-error/)，明确 HNS 步骤只对应特定错误原文。
