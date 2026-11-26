@@ -2,6 +2,13 @@
 
 本文件记录节点手册的实质内容更新。搜索排名变化、尚未完成的准备稿和没有证据支持的计划不写入更新记录。
 
+## 2026-11-27
+
+- 上线 [Clash Verge Rev 手改内部配置后代理组不显示专项](https://jiedianshouce.com/articles/clash-verge-rev-manual-config-proxy-groups-not-showing/)，按 GUI 活动配置、内核请求和空状态分诊；上游 #8737 是开放报告，不把 v2.5.10 源码线索称为通用根因或修复。深修 [免费节点导入指南](https://jiedianshouce.com/articles/free-nodes-import-clash-verge-rev/)，补固定订阅、激活、真实出口验证、错误分流和恢复步骤。
+- [27号免费节点批次](https://jiedianshouce.com/free-nodes/2026-11-27/)上线20份、14地区。727个跨历史端点去重候选中131份通过单次真实HTTPS代理请求预筛；54份完成双出口完整测试，25份通过两端各10次请求、固定262144字节下载及两家地区来源核验，选20份。请求测试为北京时间01:45:35至01:52:07，地区核验01:52:47至01:53:25；不保证当前或长期可用，未做目标客户端实机导入或海豚测速。
+- 新文、旧指南、首页、节点总页及归档、文章库、故障专题、搜索、RSS、sitemap、固定订阅、每日更新记录同步。38个发布文件公开HTTPS均200且哈希匹配；上线后单独修正首页的26号旧入口并复核线上哈希。27号总包和固定订阅均含20份配置，sitemap 259条无重复。机场榜单未进入发布包，16个公开入口13个200、3个403，商业字段未改。F190对准备稿返回REJECT，不能称最终HTML独立PASS。
+- Search Console授权报表不可得；最近存档完整7日仍为11月13至19日318展示、6点击。27号新页收录、展示和精确查询未知，约12月4日及11日核对。
+
 ## 2026-11-26
 
 - 上线 [v2rayN Scoop `current` 路径下 Xray 配置报错专项](https://jiedianshouce.com/articles/v2rayn-scoop-current-xray-config-path-not-found/)：依据 v2rayN #10446、Xray #7239 和修复 PR #7255，限定版本、路径与日志组合。深修 [Core 启动失败总页](https://jiedianshouce.com/articles/v2rayn-core-start-failed/)，补路径分流及条件判断。发布后修正新文继承模板的面包屑、结构化数据和相关链接。

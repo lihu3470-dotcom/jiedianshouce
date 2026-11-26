@@ -7,6 +7,7 @@
 | 主题 | 主要搜索意图 | 主页面 |
 | --- | --- | --- |
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
+| 2026-11-27 免费节点批次 | 27号20份公开来源配置的双出口请求、固定下载与双来源地区证据；日期页不替代固定入口 | [27号测试记录](https://jiedianshouce.com/free-nodes/2026-11-27/) |
 | 2026-11-26 免费节点批次 | 26号20份公开来源配置的双出口请求、固定下载与双来源地区证据；日期页不替代固定入口 | [26号测试记录](https://jiedianshouce.com/free-nodes/2026-11-26/) |
 | 2026-11-25 免费节点批次 | 25号20份公开来源配置的双出口请求、固定下载与双来源地区证据；日期页不替代固定入口 | [25号测试记录](https://jiedianshouce.com/free-nodes/2026-11-25/) |
 | 2026-11-24 免费节点批次 | 24号30份配置、发布前7退7进的双端短测与地区证据；日期页不替代固定入口 | [24号测试记录](https://jiedianshouce.com/free-nodes/2026-11-24/) |
@@ -21,6 +22,8 @@
 | 2026-11-16 免费节点批次 | 16号20份原配置的双端请求、固定下载、地区来源与历史时效；日期证据页不替代固定入口 | [16号测试记录](https://jiedianshouce.com/free-nodes/2026-11-16/) |
 | 免费节点历史 | 日期、数量、地区、丢包和测速证据 | [历史归档](https://jiedianshouce.com/free-nodes/archive/) |
 | 机场推荐 | 价格、流量、倍率、周期与公开证据 | [机场评级](https://jiedianshouce.com/airports/) |
+| Clash Verge Rev 手改内部 `config.yaml` 后代理组不显示 | 限定没有 GUI 活动配置、界面组列表为空但内核请求可能可用；一般免费节点导入由既有指南承接。GSC 索引与展示未知 | [手改配置空列表排查](https://jiedianshouce.com/articles/clash-verge-rev-manual-config-proxy-groups-not-showing/) |
+| 免费节点导入 Clash Verge Rev | 远程 `latest.yaml` 或本地 YAML 导入、配置激活、真实出口验证及失败阶段；不承接手改内部配置的界面空状态 | [Clash Verge Rev 导入指南](https://jiedianshouce.com/articles/free-nodes-import-clash-verge-rev/) |
 | v2rayN Scoop `current` 路径下 Xray 找不到配置路径 | Windows、Xray v26.10.21 与特定日志组合的路径判断；通用 Core 启动失败继续由原总页承接。26号新页的 GSC 索引与展示未知 | [Scoop 路径报错专项](https://jiedianshouce.com/articles/v2rayn-scoop-current-xray-config-path-not-found/) |
 | Clash Verge Rev Windows 切换订阅后转圈或旧配置生效 | B配置尚在切换时离开订阅页，再选C后最终配置不符；不承接socket权限错误或节点列表为空。25号新页索引与展示未知 | [Windows 订阅切换时序专项](https://jiedianshouce.com/articles/clash-verge-rev-windows-profile-switch-stuck-after-leaving-page/) |
 | Clash Verge Rev Fedora 45 安装后 GUI 显示不全 | 区分窗口显示、配置验证和内核启动；不承接 TUN 或系统代理故障 | [Fedora 界面故障排查](https://jiedianshouce.com/articles/clash-verge-rev-fedora-gui-incomplete/) |
