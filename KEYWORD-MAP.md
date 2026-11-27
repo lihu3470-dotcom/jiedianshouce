@@ -7,6 +7,7 @@
 | 主题 | 主要搜索意图 | 主页面 |
 | --- | --- | --- |
 | 免费节点 | 今日免费节点、Clash/Mihomo 配置、历史测试 | [免费节点](https://jiedianshouce.com/free-nodes/) |
+| 2026-11-28 免费节点批次 | 28号20份公开来源配置的双出口请求、固定下载与双来源地区证据；日期页不替代固定入口 | [28号测试记录](https://jiedianshouce.com/free-nodes/2026-11-28/) |
 | 2026-11-27 免费节点批次 | 27号20份公开来源配置的双出口请求、固定下载与双来源地区证据；日期页不替代固定入口 | [27号测试记录](https://jiedianshouce.com/free-nodes/2026-11-27/) |
 | 2026-11-26 免费节点批次 | 26号20份公开来源配置的双出口请求、固定下载与双来源地区证据；日期页不替代固定入口 | [26号测试记录](https://jiedianshouce.com/free-nodes/2026-11-26/) |
 | 2026-11-25 免费节点批次 | 25号20份公开来源配置的双出口请求、固定下载与双来源地区证据；日期页不替代固定入口 | [25号测试记录](https://jiedianshouce.com/free-nodes/2026-11-25/) |
@@ -22,6 +23,8 @@
 | 2026-11-16 免费节点批次 | 16号20份原配置的双端请求、固定下载、地区来源与历史时效；日期证据页不替代固定入口 | [16号测试记录](https://jiedianshouce.com/free-nodes/2026-11-16/) |
 | 免费节点历史 | 日期、数量、地区、丢包和测速证据 | [历史归档](https://jiedianshouce.com/free-nodes/archive/) |
 | 机场推荐 | 价格、流量、倍率、周期与公开证据 | [机场评级](https://jiedianshouce.com/airports/) |
+| Clash Verge Rev Windows 配置校验进程卡住、设置未保存 | 订阅获取完成后 `verge-mihomo.exe -t` 校验不退出时收集证据并恢复设置；上游 #8752 为开放单例，GSC 索引与展示未知 | [配置校验进程卡住排查](https://jiedianshouce.com/articles/clash-verge-rev-config-validation-process-stuck/) |
+| 订阅更新失败分阶段排查 | 获取、YAML 解析、配置校验各阶段分流；校验进程卡住的具体 Windows 症状由专项页承接 | [订阅更新失败排查](https://jiedianshouce.com/articles/subscription-update-errors/) |
 | Clash Verge Rev 手改内部 `config.yaml` 后代理组不显示 | 限定没有 GUI 活动配置、界面组列表为空但内核请求可能可用；一般免费节点导入由既有指南承接。GSC 索引与展示未知 | [手改配置空列表排查](https://jiedianshouce.com/articles/clash-verge-rev-manual-config-proxy-groups-not-showing/) |
 | 免费节点导入 Clash Verge Rev | 远程 `latest.yaml` 或本地 YAML 导入、配置激活、真实出口验证及失败阶段；不承接手改内部配置的界面空状态 | [Clash Verge Rev 导入指南](https://jiedianshouce.com/articles/free-nodes-import-clash-verge-rev/) |
 | v2rayN Scoop `current` 路径下 Xray 找不到配置路径 | Windows、Xray v26.10.21 与特定日志组合的路径判断；通用 Core 启动失败继续由原总页承接。26号新页的 GSC 索引与展示未知 | [Scoop 路径报错专项](https://jiedianshouce.com/articles/v2rayn-scoop-current-xray-config-path-not-found/) |
